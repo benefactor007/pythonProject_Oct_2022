@@ -1,0 +1,42 @@
+root@192.168.1.4's password: root
+
+vkms_init_pss_gp.sh                             0%    0     0.0KB/s   --:-- ETAvkms_init_pss_gp.sh                           100%   90KB  89.5KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%   90KB  89.6KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_import_mqb_dlc_v3.sh                       0%    0     0.0KB/s   --:-- ETAvkms_import_mqb_dlc_v3.sh                     100%   91KB  91.2KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Sept_2022/coding_file_version3/logs/trans_task_20221014_17_30_44.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-gp:~]# [mcd /tmp/
+cd /tmp/
+[root@vw-infotainment-gp:/tmp]# [msha1sum vkms_init_pss_gp.sh
+sha1sum vkms_init_pss_gp.sh
+5a7dd595019ff476e1ee54f43bf3ed7194c9eced  vkms_init_pss_gp.sh
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-gp:/tmp]# [msha1sum vkms_import_reset_dlc.sh
+fe1ccf877281972a35dc6c44e924a4441a2b558f  vkms_import_reset_dlc.sh
+sha1sum vkms_import_mqb_dlc_v3.sh
+[root@vw-infotainment-gp:/tmp]# [msha1sum vkms_import_mqb_dlc_v3.sh
+d0711d56d99d73849b3d0f6510e092219d4c4d14  vkms_import_mqb_dlc_v3.sh
+sha1sum tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-gp:/tmp]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-gp:/tmp]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@vw-infotainment-gp:/tmp]# [mexit
+sync
+[root@vw-infotainment-gp:/tmp]# [mexit
+Connection to 192.168.1.4 closed.

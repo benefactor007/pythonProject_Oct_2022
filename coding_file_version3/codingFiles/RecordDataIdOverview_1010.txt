@@ -1,0 +1,177 @@
+Namespace_hex	Key	Namespace_purpose	SpecID	Longname	Length
+
+0x1000000	0x0B39	Adaptation 	Dia_Anp_13	Audio_Management_Input_Gain_Offset	34
+0x1000000	0x0501	Adaptation 	Dia_Anp_114	Audio_Management_Audio_Delay_Lines	12
+0x1000000	0x0500	Adaptation 	Dia_Anp_137	Video_audio_encryption	1
+0x1000000	0x0550	Adaptation 	Dia_Anp_142	function_configuration_audio	10
+0x1000000	0x0B20	Adaptation 	Dia_Anp_307	Set_Loudspeaker_Test_Mode	121
+0x1000000	0x0503	Adaptation 	Dia_Anp_503	loudspeaker_test_acoustic_extended_remote	2
+0x1000000	0x0551	Adaptation 	Dia_Anp_534	function_configuration_sound	1
+0x1000000	0x1021	Adaptation 	Dia_Anp_548	BAP_Debug_Mode_Release	1
+0x1000000	0x0B1B	Adaptation 	Dia_Anp_552	Car_Function_Adaptations	231
+0x1000000	0x0B1D	Adaptation 	Dia_Anp_1529	Car_Function_List_BAP	256
+0x1000000	0x0B12	Adaptation 	Dia_Anp_4134	Summer_Time_Shift_Method	1
+0x1000000	0x0B5A	Adaptation 	Dia_Anp_4141	Dashboard_Display_Configuration	8
+0x1000000	0x0B26	Adaptation 	Dia_Anp_4185	Headup_display_configuration	3
+0x1000000	0x0530	Adaptation 	Dia_Anp_6161	exit_screen_configuration	2
+0x1000000	0x0552	Adaptation 	Dia_Anp_4198	function_configuration_car	2
+0x1000000	0x0505	Adaptation 	Dia_Anp_6422	function_configuration_rvc	3
+0x1000000	0x24F1	Adaptation 	Dia_Anp_4215	Telephone_configuration	1
+0x1000000	0x24F1	Adaptation 	Dia_Anp_6665	Telephone_configuration	1
+0x1000000	0xEF97	Adaptation 	Dia_Anp_4232	Delay_time_phone	1
+0x1000000	0x0553	Adaptation 	Dia_Anp_4237	function_configuration_phone	3
+0x1000000	0x0B06	Adaptation 	Dia_Anp_6175	Telephone_Data_Services	1
+0x1000000	0x0B01	Adaptation 	Dia_Anp_6375	Mobile_Country_Code	2
+0x1000000	0x0507	Adaptation 	Dia_Anp_4274	dtc_thresholds	30
+0x1000000	0x0986	Adaptation 	Dia_Anp_4305	Menu_items_for_mobile_online_services	1
+0x1000000	0x09C4	Adaptation 	Dia_Anp_4309	Manufactor_specific_connect_app_screening	0
+0x1000000	0x090B	Adaptation 	Dia_Anp_4320	Set number for info call	23
+0x1000000	0x0909	Adaptation 	Dia_Anp_4323	Set number (roaming) for info call	23
+0x1000000	0x090C	Adaptation 	Dia_Anp_4326	Set number for service call	23
+0x1000000	0x090A	Adaptation 	Dia_Anp_4329	Set number (roaming) for service call	23
+0x1000000	0x0B02	Adaptation 	Dia_Anp_4332	Emergency_Call_1	23
+0x1000000	0x0B03	Adaptation 	Dia_Anp_4335	Emergency_Call_1_Roaming	23
+0x1000000	0x0B33	Adaptation 	Dia_Anp_4338	Bluetooth_Deactivation	1
+0x1000000	0x0B37	Adaptation 	Dia_Anp_4342	Bluetooth_Sniff_Mode	1
+0x1000000	0x0A08	Adaptation 	Dia_Anp_4346	Bluetooth_audio_codec	1
+0x1000000	0x0B43	Adaptation 	Dia_Anp_4349	WLAN_modul_activation	1
+0x1000000	0x0560	Adaptation 	Dia_Anp_5895	ipv4_address_of_subnet_1_on_mib	4
+0x1000000	0x0561	Adaptation 	Dia_Anp_5904	ipv4_address_of_subnet_1_on_ccu	4
+0x1000000	0x0562	Adaptation 	Dia_Anp_5913	ipv4_address_of_subnet_2_on_mib	4
+0x1000000	0x0563	Adaptation 	Dia_Anp_5922	ipv4_address_of_subnet_2_on_ccu	4
+0x1000000	0x0564	Adaptation 	Dia_Anp_5931	ipv4_address_of_the_wlan_ap	4
+0x1000000	0x0565	Adaptation 	Dia_Anp_5940	ipv6_address_of_subnet_1_on_mib	8
+0x1000000	0x0566	Adaptation 	Dia_Anp_5949	ipv6_address_of_subnet_1_on_ccu	8
+0x1000000	0x0567	Adaptation 	Dia_Anp_5958	ipv6_address_of_subnet_2_on_mib	8
+0x1000000	0x0568	Adaptation 	Dia_Anp_5967	ipv6_address_of_subnet_2_on_ccu	8
+0x1000000	0x0569	Adaptation 	Dia_Anp_5976	ipv6_address_of_the_wlan_ap	8
+0x1000000	0x056A	Adaptation 	Dia_Anp_5985	wlan_ap_local_net_dhcp_lease_time	1
+0x1000000	0x0520	Adaptation 	Dia_Anp_6124	alphabetic_scrollbar	1
+0x1000000	0x0521	Adaptation 	Dia_Anp_6128	geocoordinate_create	1
+0x1000000	0x0522	Adaptation 	Dia_Anp_6132	geocoordinate_show	1
+0x1000000	0x0523	Adaptation 	Dia_Anp_6136	number_to_name_matching_algorithm	1
+0x1000000	0x0524	Adaptation 	Dia_Anp_6140	sortorder	1
+0x1000000	0x0525	Adaptation 	Dia_Anp_6146	calendar_reminder	1
+0x1000000	0x0516	Adaptation 	Dia_Anp_6153	5_ghz_wlan	1
+0x1000000	0x0517	Adaptation 	Dia_Anp_6157	same_ssid_for_2_4_and_5_ghz	1
+0x1000000	0x0518	Adaptation 	Dia_Anp_6179	channel_band_width_802_11ac	1
+0x1000000	0x0519	Adaptation 	Dia_Anp_6185	wlan_channel_numbers	1
+0x1000000	0x0555	Adaptation 	Dia_Anp_4353	function_configuration_connectivity	6
+0x1000000	0x055E	Adaptation 	Dia_Anp_6205	function_configuration_connectivity_extended	3
+0x1000000	0x052A	Adaptation 	Dia_Anp_6381	nhtsa_properties	5
+0x1000000	0x0B48	Adaptation 	Dia_Anp_4445	Startup_Screen_Sticker_HMI	2
+0x1000000	0x09EB	Adaptation 	Dia_Anp_4448	Disabled_menu_contents	23
+0x1000000	0x09CB	Adaptation 	Dia_Anp_4983	Media_country_code_HMI	2
+0x1000000	0x0556	Adaptation 	Dia_Anp_4986	function_configuration_hmi	4
+0x1000000	0x052B	Adaptation 	Dia_Anp_6232	log_book_initial_language	1
+0x1000000	0x0502	Adaptation 	Dia_Anp_5034	Testmode_Video_speed_cutoff	3
+0x1000000	0x0B2F	Adaptation 	Dia_Anp_5039	Multi_Media_Data_Transfer	1
+0x1000000	0x2425	Adaptation 	Dia_Anp_6235	CD eject button status	1
+0x1000000	0x0B49	Adaptation 	Dia_Anp_5047	Media_Country_Code	2
+0x1000000	0x0B35	Adaptation 	Dia_Anp_5050	Media_Region_Codes	1
+0x1000000	0x0981	Adaptation 	Dia_Anp_5055	Activation_for_external_usb	4
+0x1000000	0x0557	Adaptation 	Dia_Anp_5072	function_configuration_media	3
+0x1000000	0x055D	Adaptation 	Dia_Anp_6239	RSE_function_configuration	10
+0x1000000	0x0B11	Adaptation 	Dia_Anp_5100	Vehicle_Dimensions	6
+0x1000000	0x0B23	Adaptation 	Dia_Anp_5107	Set_PayTMC	2
+0x1000000	0x0E38	Adaptation 	Dia_Anp_5110	Navigation_GNSS_Receiver_Setting	2
+0x1000000	0x0558	Adaptation 	Dia_Anp_5132	function_configuration_navigation	4
+0x1000000	0x050A	Adaptation 	Dia_Anp_5181	Select_Remote_Test_DAB_Service	5
+0x1000000	0x050E	Adaptation 	Dia_Anp_5188	Radio_Level_Quality_Offsets	2
+0x1000000	0x09EE	Adaptation 	Dia_Anp_5193	SDARS_Preactivated_subscription	1
+0x1000000	0x0958	Adaptation 	Dia_Anp_5196	Adjustment_fm_tuner_mono_stereo	3
+0x1000000	0x0506	Adaptation 	Dia_Anp_5203	Shift_Remote_Test_Frequency_FM	1
+0x1000000	0x0508	Adaptation 	Dia_Anp_5208	Shift_Remote_Test_Frequency_AM	1
+0x1000000	0x0509	Adaptation 	Dia_Anp_5213	Shift_Remote_Test_Frequency_DAB	1
+0x1000000	0x0511	Adaptation 	Dia_Anp_5218	Set_Remote_Test_Channel_Scanning	1
+0x1000000	0x0559	Adaptation 	Dia_Anp_5222	function_configuration_radio	7
+0x1000000	0x2442	Adaptation 	Dia_Anp_5329	Mobile phone voice control availability	1
+0x1000000	0x055A	Adaptation 	Dia_Anp_5336	function_configuration_speech	2
+0x1000000	0x0504	Adaptation 	Dia_Anp_6246	speechinput_properties_for_activation	1
+0x1000000	0x0B24	Adaptation 	Dia_Anp_5377	Infotainment_Recorder	1
+0x1000000	0x0515	Adaptation 	Dia_Anp_5381	Logging_Configuration	3
+0x1000000	0x0513	Adaptation 	Dia_Anp_5389	powermanagement_timer	28
+0x1000000	0x3C02	Adaptation 	Dia_Anp_5428	SWaP_function_crypt_data_ID	0
+0x1000000	0x3C01	Adaptation 	Dia_Anp_5431	SWaP_function_transfer_crypt_data	0
+0x1000000	0x050B	Adaptation 	Dia_Anp_6438	function_configuration_swap_fod	1
+0x1000000	0x0B2E	Adaptation 	Dia_Anp_5435	Component_Update_Confirmation	2
+0x1000000	0x055B	Adaptation 	Dia_Anp_5439	function_configuration_sw_update	1
+0x1000000	0x0B44	Adaptation 	Dia_Anp_5445	Dimming_Ambient_Illumination_Information_Control_Unit	6
+0x1000000	0x0B45	Adaptation 	Dia_Anp_5458	Dimming_Ambient_Illumination_Operating_and_Display_Unit	6
+0x1000000	0x0B45	Adaptation 	Dia_Anp_6451	Dimming_Ambient_Illumination_Operating_and_Display_Unit	9
+0x1000000	0x0B45	Adaptation 	Dia_Anp_6314	Dimming_Ambient_Illumination_Operating_and_Display_Unit	6
+0x1000000	0x0B47	Adaptation 	Dia_Anp_5471	Dimming_Illumination_for_Display_Unit	12
+0x1000000	0x052C	Adaptation 	Dia_Anp_6473	Dimming_illumination_for_display_unit_1_for_multimedia_system	18
+0x1000000	0x052D	Adaptation 	Dia_Anp_6498	Dimming_illumination_for_display_unit_2_for_multimedia_system	18
+0x1000000	0x052E	Adaptation 	Dia_Anp_6523	Dimming_illumination_for_display_unit_3_for_multimedia_system	18
+0x1000000	0x052F	Adaptation 	Dia_Anp_6548	Dimming_ambient_illumination_for_volume_control	6
+0x1000000	0x0B47	Adaptation 	Dia_Anp_6327	Dimming_Illumination_for_Display_Unit	12
+0x1000000	0x0B46	Adaptation 	Dia_Anp_5496	Dimming_Functional_Illumination_for_Operating_Unit	12
+0x1000000	0x0526	Adaptation 	Dia_Anp_6352	gestures_room	60
+0x1000000	0x0527	Adaptation 	Dia_Anp_6355	proximity_room	60
+0x1000000	0x0528	Adaptation 	Dia_Anp_6358	nearby_detection_room	60
+0x1000000	0x0529	Adaptation 	Dia_Anp_6361	slider_parameter	20
+0x1000000	0x0B3E	Adaptation 	Dia_Anp_5522	Operating_and_Display_Unit_1_Proximity_Sensor_Basic_Adaptation	40
+0x1000000	0x00BE	Adaptation 	Dia_Anp_5526	IKA-Key	34
+0x1000000	0x00BD	Adaptation 	Dia_Anp_5529	GFA-Key	34
+0x1000000	0x02C5	Adaptation 	Dia_Anp_5855	Component_theft_protection_secure_hardware_extension	96
+0x1000000	0x04FB	Adaptation 	Dia_Anp_5534	Roller_Test_Stand_Mode	1
+0x1000000	0x04A3	Adaptation 	Dia_Anp_5539	Gateway Component List	3
+0x1000000	0x09D3	Adaptation 	Dia_Anp_6464	Ethernet_configuration	2
+0x1000000	0x2A3B	Adaptation 	Dia_Anp_5603	Automatic_ring_circuit_break_diagnostic	1
+0x1000000	0x092E	Adaptation 	Dia_Anp_5607	MOST_SSO_CU_Detection	1
+0x1000000	0x092F	Adaptation 	Dia_Anp_6447	MOST_Optical_Wakeup	1
+0x1000000	0x050F	Adaptation 	Dia_Anp_5710	error_mask	30
+0x1000000	0x0B13	Adaptation 	Dia_Anp_5731	Fan_Operation	1
+0x1000000	0x04FE	Adaptation 	Dia_Anp_5735	Productionmode	3
+0x1000000	0x04FC	Adaptation 	Dia_Anp_5741	Productionmode deactivate	3
+0x1000000	0x243F	Adaptation 	Dia_Anp_5744	Developer testmode	1
+0x1000000	0x0514	Adaptation 	Dia_Anp_5748	Key_code_monitoring	32
+0x1000000	0x0902	Adaptation 	Dia_Anp_5813	Activation of Development Messages	1
+0x1000000	0x0540	Adaptation 	Dia_Anp_6265	subsystem_identifier_version_implementation	2
+0x1000000	0x055C	Adaptation 	Dia_Anp_5821	function_configuration_unit	1
+0x1000000	0x0500	Adaptation 	Dia_Anp_6364	Video_audio_encryption	1
+0x1000000	0x0571	Adaptation 	Dia_Anp_7281	function_configuration_pso	2
+0x2000000	0x0600	Coding	Dia_Cod_1	n/a	25
+0x3000000	0xF187	Identification	Dia_Ident_7	VW_Spare_Part_Number	11
+0x3000000	0xF189	Identification	Dia_Ident_110	VW_Application_Software_Version_Number	4
+0x3000000	0xF18C	Identification	Dia_Ident_67	ECU Serial Number	20
+0x3000000	0xF191	Identification	Dia_Ident_9	VW_ECU_Hardware_Number	11
+0x3000000	0xF1AB	Identification	Dia_Ident_109	VW_Logical_Software_Block_Version	4
+0x3000000	0xF1A3	Identification	Dia_Ident_11	VW_ECU_Hardware_Version_Number	3
+0x4000000	0x7201	Records	Dia_Ds_10	Audio-Parameter Sound (AP-Sound----)	2052
+0x4000000	0x7202	Records	Dia_Ds_17	Audio-Paramter Sound Announcement (AP-Sound_Ann)	1289
+0x4000000	0x7203	Records	Dia_Ds_24	Audio-Parameter Sound Cabrio (AP-Sound_Cab)	1543
+0x4000000	0x7204	Records	Dia_Ds_31	Audio-Parameter Sound Configuration (AP-Sound_Con)	150
+0x4000000	0x7205	Records	Dia_Ds_38	InCar Communication (InCar_Com---)	1028
+0x4000000	0x7200	Records	Dia_Ds_45	Individual Sound Processing (In_Sound_Pro)	2052
+0x4000000	0x7101	Records	Dia_Ds_316	Audio-Parameter Sound (Early Audio-)	250
+0x4000000	0x7102	Records	Dia_Ds_323	Audio-Parameter Sound (Signal Flow-)	16008
+0x4000000	0x7103	Records	Dia_Ds_330	Audio-Sound Parameter	65535
+0x4000000	0x7104	Records	Dia_Ds_337	Audio-Sound Parameter 3D	65535
+0x4000000	0x7105	Records	Dia_Ds_344	Audio-Sound Parameter ANC	65535
+0x4000000	0x7206	Records	Dia_Ds_53	Speaker configuration Channel 1-8 (LS_con_01-08)	184
+0x4000000	0x7207	Records	Dia_Ds_60	Speaker configuration Channel 9-16 (LS_con_09-16)	184
+0x4000000	0x7208	Records	Dia_Ds_67	Speaker configuration Channel 17-24 (LS_con_17-24)	184
+0x4000000	0x7209	Records	Dia_Ds_79	Eco HMI (ECO_HMI-----)	144
+0x4000000	0x720A	Records	Dia_Ds_89	DAB Frequency tables (DAB_Freq_tab)	278
+0x4000000	0x720B	Records	Dia_Ds_97	Sprache (Sprache-----)	44
+0x4000000	0x720C	Records	Dia_Ds_153	Sichtbare MMI Systemsprachen (MMI-SystSpra)	778
+0x4000000	0x7100	Records	Dia_Ds_160	Speech Signal Enhancement (SpeechSigEnh)	34248
+0x4000000	0x7210	Records	Dia_Ds_260	Speech Signal Enhancement 1 (SpeechSE---1)	4095
+0x4000000	0x7211	Records	Dia_Ds_267	Speech Signal Enhancement 2 (SpeechSE---2)	4095
+0x4000000	0x7212	Records	Dia_Ds_274	Speech Signal Enhancement 3 (SpeechSE---3)	4095
+0x4000000	0x7213	Records	Dia_Ds_281	Speech Signal Enhancement 4 (SpeechSE---4)	4095
+0x4000000	0x7214	Records	Dia_Ds_288	Speech Signal Enhancement 5 (SpeechSE---5)	4095
+0x4000000	0x7215	Records	Dia_Ds_295	Speech Signal Enhancement 6 (SpeechSE---6)	4095
+0x4000000	0x7216	Records	Dia_Ds_302	Speech Signal Enhancement 7 (SpeechSE---7)	4095
+0x4000000	0x7217	Records	Dia_Ds_309	Speech Signal Enhancement 8 (SpeechSE---8)	4095
+0x4000000	0x720D	Records	Dia_Ds_181	Geschwindigkeitsabschaltschwellen (GeschwAbSchw)	34
+0x5000000	n/a	Information	n/a	n/a	0
+0x1000000   0x0574  Adaptation  n/a     ipv6_address_of_subnet_4_on_ccu     n/a
+0x1000000   0x0576  Adaptation  n/a     ipv4_address_of_subnet_4_on_ccu     n/a
+0x1000000   0x0575  Adaptation  n/a     ipv4_address_of_subnet_4_on_mib     n/a
+0x1000000   0x0573  Adaptation  n/a     ipv6_address_of_subnet_4_on_mib     n/a
+0x1000000   0x0512  Adaptation  n/a     android setting     n/a
+0x1000000   0x0570  Adaptation  n/a     function configuration A2B      n/a
+0x1000000   0x056F  Adaptation  n/a     mic OCU     n/a

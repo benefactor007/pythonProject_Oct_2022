@@ -1,0 +1,46 @@
+{
+    "tail" : [
+        {
+            "sendline" : "sync"
+        }, 
+        {
+            "sendline" : "exit"
+        }
+    ], 
+    "head" : [
+        {
+            "spawn_command_expect" : "password", 
+            "spawn_command" : "ssh root@192.168.1.4"
+        }, 
+        {
+            "sendline" : "root", 
+            "expect" : "root@"
+        }, 
+        {
+            "sendline" : "cd /tmp/", 
+            "expect" : "/tmp"
+        }
+    ], 
+    "body" : [
+        {
+            "sendline" : "sha1sum tsd.persistence.client.mib3.app.SetKey", 
+            "expect" : "4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey"
+        }, 
+        {
+            "sendline" : "sha1sum tsd.persistence.client.mib3.app.GetKey", 
+            "expect" : "880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey"
+        }, 
+        {
+            "sendline" : "sha1sum vkms_import_reset_dlc.sh", 
+            "expect" : "fe1ccf877281972a35dc6c44e924a4441a2b558f  vkms_import_reset_dlc.sh"
+        }, 
+        {
+            "sendline" : "sha1sum vkms_import_mqb_dlc_v3.sh", 
+            "expect" : "d0711d56d99d73849b3d0f6510e092219d4c4d14  vkms_import_mqb_dlc_v3.sh"
+        }, 
+        {
+            "sendline" : "sha1sum vkms_init_pss_gp.sh", 
+            "expect" : "5a7dd595019ff476e1ee54f43bf3ed7194c9eced  vkms_init_pss_gp.sh"
+        }
+    ]
+}
