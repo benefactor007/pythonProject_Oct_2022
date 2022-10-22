@@ -1,0 +1,49 @@
+{
+    "body" : [
+        {
+            "ns" : "0x80000008", 
+            "key" : "0x00", 
+            "sendline" : "./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5", 
+            "expect" : "store: ns: 80000008 key: 0 slot: 0", 
+            "data" : "e5"
+        }, 
+        {
+            "ns" : "0x3000000", 
+            "key" : "0xF187", 
+            "sendline" : "./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620", 
+            "expect" : "store: ns: 3000000 key: 61831 slot: 0", 
+            "data" : "3548473033353836364620"
+        }, 
+        {
+            "ns" : "0x3000000", 
+            "key" : "0xF191", 
+            "sendline" : "./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620", 
+            "expect" : "store: ns: 3000000 key: 61841 slot: 0", 
+            "data" : "3548473033353836364620"
+        }
+    ], 
+    "head" : [
+        {
+            "spawn_command" : "ssh root@192.168.1.4", 
+            "spawn_command_expect" : "password"
+        }, 
+        {
+            "sendline" : "root", 
+            "expect" : "root@"
+        }, 
+        {
+            "sendline" : "cd /usr/bin", 
+            "expect" : "/usr/bin"
+        }
+    ], 
+    "tail" : [
+        {
+            "sendline" : "sync", 
+            "expect" : "infotainment"
+        }, 
+        {
+            "sendline" : "exit", 
+            "expect" : "Connection to 192.168.1.4 closed"
+        }
+    ]
+}

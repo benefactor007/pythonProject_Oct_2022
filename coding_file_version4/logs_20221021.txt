@@ -1,0 +1,47 @@
+root@192.168.1.4's password: root
+
+/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/tsd.persistence.client.mib3.app.SetKey: No such file or directory
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221021.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-175008:~]# [mcd /var
+cd /var
+[root@mib-infotainment-175008:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-175008:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-175008:/var]# [msync
+exit
+sync
+[root@mib-infotainment-175008:/var]# [mexit
+Connection to 192.168.1.4 closed.

@@ -224,6 +224,44 @@ class Scp(P_step2):
                 except pexpect.TIMEOUT:
                     print(P_step1.repr_message("pexpect.TIMEOUT"))
 
+
+
+def transfer(dest_folder):
+    """
+    transfer files
+    """
+    tt1 = Scp()
+    # tt1.hu_dir = "/var"
+    tt1.hu_dir = dest_folder
+    tt1.setProjectDir(os.path.split(os.getcwd())[0])
+    tt1.setToolDir("tools")
+    tt1.setJsonDir("json")
+    tt1.setToolDir("tools")
+    tt1.setLogDir("logs")
+    tt1.setFileList(tt1.tools_folder)
+    tt1.log_path = ""
+    tt1.log_path = tt1.logs_folder + os.sep + "trans_task_" + time.strftime("%Y%m%d_%H_%M_%S",
+                                                                            time.localtime(
+                                                                                time.time())) + ".txt"
+    tt1.transfer_files(tt1.getFileList(tt1.tools_folder))  # important, copy files to HU
+    print(tt1.greenFont("Transfer was successfully finished"))
+    for i in tt1.fileList:
+        # print(f"os.path.split(i)[-1] : {os.path.split(i)[-1]}")
+        # print(f"tt1.getSha1sum(i).split()[0] : {tt1.getSha1sum(i).split()[0]}")
+        tt1.add_send_expect(f"sha1sum {os.path.split(i)[-1]}",
+                            f"{tt1.getSha1sum(i).split()[0]}  {os.path.split(i)[-1]}")
+    tt1.combineAsJson_v2(dest_folder)
+    pexpect_output_json = "file_checksum_expect.json"
+    tt1.saveFile(tt1.json_folder, pexpect_output_json, tt1.json_dict)
+    tt1.set_pexpect_command(tt1.json_folder, pexpect_output_json, tt1.log_path)
+    print(tt1.greenFont("files was successfully double checked"))
+    # sys.exit()
+
+
+
+
+
+
 if __name__ == '__main__':
     step2 = P_step2()
     step2.setProjectDir(os.path.split(os.getcwd())[0])
@@ -250,7 +288,7 @@ if __name__ == '__main__':
                                                                             time.localtime(
                                                                                               time.time())) + ".txt"
     tt1.transfer_files(tt1.getFileList(tt1.tools_folder))             # important, copy files to HU
-
+    print(tt1.greenFont("Transfer was successfully finished"))
     for i in tt1.fileList:
         # print(f"os.path.split(i)[-1] : {os.path.split(i)[-1]}")
         # print(f"tt1.getSha1sum(i).split()[0] : {tt1.getSha1sum(i).split()[0]}")
@@ -259,7 +297,8 @@ if __name__ == '__main__':
     pexpect_output_json = "file_checksum_expect.json"
     tt1.saveFile(tt1.json_folder, pexpect_output_json, tt1.json_dict)
     tt1.set_pexpect_command(tt1.json_folder, pexpect_output_json, tt1.log_path)
-    # sys.exit()
+    print(tt1.greenFont("files was successfully double checked"))
+    sys.exit()
 
 
 

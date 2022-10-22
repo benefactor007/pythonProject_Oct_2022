@@ -1,0 +1,1643 @@
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-485231:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-485231:~]# [mcd /var
+cd /var
+[root@mib-infotainment-485231:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+cd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-485231:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-485231:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-485231:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-485231:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-485231:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-485231:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-485231:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-719129:/var]# [mexit
+sync
+[root@mib-infotainment-719129:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+cd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-719129:/var]# [mexit
+sync
+[root@mib-infotainment-719129:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-719129:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-719129:~]# [mcd /var
+cd /var
+[root@mib-infotainment-719129:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-719129:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-719129:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-719129:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-719129:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-611651:~]# [mcd /var
+cd /var
+[root@mib-infotainment-611651:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-611651:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-611651:/var]# [mexit
+sync
+[root@mib-infotainment-611651:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-611651:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-611651:~]# [mcd /var
+cd /var
+[root@mib-infotainment-611651:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-611651:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-611651:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-611651:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-611651:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 31 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-611651:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-611651:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-611651:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-406256:~]# [mcd /var
+cd /var
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-406256:/var]# [mexit
+sync
+[root@mib-infotainment-406256:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-406256:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-406256:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-406256:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-406256:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-406256:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-406256:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 36 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-406256:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-406256:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-406256:~]# [mcd /var
+cd /var
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-406256:/var]# [mexit
+sync
+[root@mib-infotainment-406256:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-406256:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-406256:~]# [mcd /var
+cd /var
+[root@mib-infotainment-406256:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-406256:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-406256:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-406256:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-406256:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 36 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-406256:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-406256:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-406256:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-571260:~]# [mcd /var
+cd /var
+[root@mib-infotainment-571260:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-571260:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-571260:/var]# [mexit
+sync
+[root@mib-infotainment-571260:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-571260:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-571260:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-571260:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-571260:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-571260:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-571260:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-571260:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 35 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-571260:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-571260:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-571260:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-368551:~]# [mcd /var
+cd /var
+[root@mib-infotainment-368551:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-368551:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-368551:/var]# [mexit
+sync
+[root@mib-infotainment-368551:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-368551:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-368551:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-368551:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-368551:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-368551:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-368551:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-368551:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 37 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-368551:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-368551:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-368551:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-359677:~]# [mcd /var
+cd /var
+[root@mib-infotainment-359677:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-359677:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-359677:/var]# [mexit
+sync
+[root@mib-infotainment-359677:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-359677:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-359677:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-359677:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-359677:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-359677:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-359677:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-359677:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-359677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-359677:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-359677:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-399917:~]# [mcd /var
+cd /var
+[root@mib-infotainment-399917:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-399917:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-399917:/var]# [mexit
+sync
+[root@mib-infotainment-399917:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-399917:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-399917:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-399917:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-399917:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-399917:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-399917:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-399917:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 33 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-399917:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 sync
+
+[root@mib-infotainment-399917:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-399917:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-801976:~]# [mcd /var
+cd /var
+[root@mib-infotainment-801976:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-801976:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-801976:/var]# [mexit
+sync
+[root@mib-infotainment-801976:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-801976:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-801976:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-801976:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-801976:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-801976:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-801976:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@mib-infotainment-801976:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 30 32 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+
+[root@mib-infotainment-801976:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-801976:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-801976:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-070691:~]# [mcd /var
+cd /var
+[root@mib-infotainment-070691:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-070691:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-070691:/var]# [mexit
+sync
+[root@mib-infotainment-070691:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-070691:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-070691:~]# [mcd /var
+cd /var
+[root@mib-infotainment-070691:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-070691:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-070691:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-070691:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@mib-infotainment-070691:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 31 34 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-070691:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-070691:/usr/bin]# [mexit
+sync
+exit
+[root@mib-infotainment-070691:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-683220:~]# [mcd /var
+cd /var
+[root@mib-infotainment-683220:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-683220:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-683220:/var]# [mexit
+sync
+[root@mib-infotainment-683220:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-683220:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-683220:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-683220:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-683220:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-683220:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-683220:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-683220:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 37 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-683220:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-683220:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-683220:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-156760:~]# [mcd /var
+cd /var
+[root@mib-infotainment-156760:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-156760:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-156760:/var]# [mexit
+sync
+[root@mib-infotainment-156760:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-156760:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-156760:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-156760:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-156760:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-156760:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-156760:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-156760:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 39 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-156760:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-156760:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-156760:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-116436:~]# [mcd /var
+cd /var
+[root@mib-infotainment-116436:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-116436:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-116436:/var]# [mexit
+sync
+[root@mib-infotainment-116436:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-116436:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-116436:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-116436:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-116436:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-116436:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-116436:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-116436:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 38 30 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-116436:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-116436:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-116436:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-973702:~]# [mcd /var
+cd /var
+[root@mib-infotainment-973702:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-973702:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@mib-infotainment-973702:/var]# [mexit
+sync
+[root@mib-infotainment-973702:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-973702:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-973702:~]# [mcd /var
+cd /var
+[root@mib-infotainment-973702:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-973702:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-973702:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-973702:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-973702:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 35 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-973702:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-973702:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-973702:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-812221:~]# [mcd /var
+cd /var
+[root@mib-infotainment-812221:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-812221:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-812221:/var]# [msync
+exit
+sync
+[root@mib-infotainment-812221:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-812221:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-812221:~]# [mcd /var
+cd /varscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+
+[root@mib-infotainment-812221:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-812221:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-812221:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-812221:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-812221:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 37 36 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-812221:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-812221:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-812221:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-911786:~]# [mcd /var
+cd /var
+[root@mib-infotainment-911786:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.Set
+Key
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-911786:/var]# [msha1sum tsd.persistence.client.mib3.app.Get
+Key
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-911786:/var]# [msync
+exit
+sync
+[root@mib-infotainment-911786:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@mib-infotainment-911786:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@mib-infotainment-911786:~]# [mcd /var
+cd /var
+[root@mib-infotainment-911786:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.S
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@mib-infotainment-911786:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.G
+etKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@mib-infotainment-911786:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@mib-infotainment-911786:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@mib-infotainment-911786:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app
+.GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 38 31 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKe
+y --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+[root@mib-infotainment-911786:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@mib-infotainment-911786:/usr/bin]# [mexit
+sync
+[root@mib-infotainment-911786:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/coding_file_version4/logs_20221022.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-568526:~]# [mcd /var
+cd /var
+[root@vw-infotainment-568526:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-568526:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@vw-infotainment-568526:/var]# [mexit
+sync
+[root@vw-infotainment-568526:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-568526:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-568526:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-568526:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-568526:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-568526:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-568526:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-568526:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKey
+ --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 35 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF1A3
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKey
+ --ns 0x3000000 --key 0xF1A3
+load: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 38 
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKey
+ --ns 0x3000000 --key 0xF189
+load: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 37 32 34 ===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+
+[root@vw-infotainment-568526:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620
+35,48,47,30,33,35,38,36,36,46,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20 
+sync
+[root@vw-infotainment-568526:/usr/bin]# [mexit
+sync
+exit
+[root@vw-infotainment-568526:/usr/bin]# [mexit
+Connection to 192.168.1.4 closed.

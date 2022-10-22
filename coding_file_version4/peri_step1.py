@@ -184,30 +184,7 @@ class P_step1(JSON):
                     self.nsKey_dict_list.append(dict(zip(column_name_list[:], [x for x in line.split()[:]])))
             # pprint.pprint(self.nsKey_dict_list)
 
-    def set_pexpect_command(self, json_path, json_file, log_path):
-        with open("{0}/{1}".format(json_path, json_file), encoding="utf-8") as json_data, \
-                open(log_path, 'a')as logs:
-            data = json.load(json_data)
-            spawn_command = jsonpath.jsonpath(data, "$.head..spawn_command")[0]
-            logs.write(spawn_command + "\n")
-            if not False:
-                logs.write(
-                    "pexpect.spawn(command={0}, , logfile={1}, encoding={2}, timeout={3})\n".format(spawn_command, logs,
-                                                                                                    "utf-8", "20"))
-                try:
-                    p = pexpect.spawn(command=spawn_command, logfile=logs, encoding='utf-8', timeout=10)
-                    spawn_command_expect = jsonpath.jsonpath(data, "$.head..spawn_command_expect")[0]
-                    logs.write("p.expect({0})\n".format(spawn_command_expect))
-                    p.expect(spawn_command_expect)
-                    for ele_dict in (
-                            jsonpath.jsonpath(data, "$.head[?(@.sendline)]"),
-                            jsonpath.jsonpath(data, "$.body[?(@.sendline)]"),
-                            jsonpath.jsonpath(data, "$.tail[?(@.sendline)]")):
-                        # pprint.pprint(ele_dict)
-                        for i in ele_dict:
-                            P_step1.pAction_v2(i, cls=p)
-                except pexpect.TIMEOUT:
-                    print(P_step1.repr_message("pexpect.TIMEOUT"))
+
 
     def set_pexpect_command_v2(self, json_path, json_file, log_path, error_path):
         with open("{0}/{1}".format(json_path, json_file), encoding="utf-8") as json_data, \

@@ -1,12 +1,11 @@
 {
     "body" : [
         {
-            "sendline" : "sha1sum tsd.persistence.client.mib3.app.SetKey", 
-            "expect" : "4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey"
-        }, 
-        {
-            "sendline" : "sha1sum tsd.persistence.client.mib3.app.GetKey", 
-            "expect" : "880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey"
+            "sendline" : "disable-dm-verity.sh", 
+            "expect" : [
+                "Connection", 
+                "infotainment"
+            ]
         }
     ], 
     "head" : [

@@ -1,0 +1,20 @@
+[
+    {
+        "Namespace_hex" : "0x80000008", 
+        "Key" : "0x00", 
+        "Namespace_purpose" : "Open_read-write_access", 
+        "Data" : "e5"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF187", 
+        "Namespace_purpose" : "Set_VW_Spare_Part_Number", 
+        "Data" : "3548473033353836364620"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF191", 
+        "Namespace_purpose" : "Set_VW_ECU_Hardware_Number", 
+        "Data" : "3548473033353836364620"
+    }
+]

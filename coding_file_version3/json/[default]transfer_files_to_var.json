@@ -1,6 +1,18 @@
 {
     "body" : [
         {
+            "sendline" : "mount-read-write.sh", 
+            "expect" : "infotainment"
+        }, 
+        {
+            "sendline" : "scp -r tsd.persistence.client.mib3.app.* /usr/bin", 
+            "expect" : "infotainment"
+        }, 
+        {
+            "sendline" : "cd /usr/bin", 
+            "expect" : "/usr/bin"
+        }, 
+        {
             "sendline" : "sha1sum tsd.persistence.client.mib3.app.SetKey", 
             "expect" : "4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey"
         }, 
