@@ -1,0 +1,14 @@
+{
+    "transfer" : [
+        {
+            "expect" : "password"
+        }, 
+        {
+            "sendline" : "root"
+        }, 
+        {
+            "expect" : "100%"
+        }
+    ]
+
+}

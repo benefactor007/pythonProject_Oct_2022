@@ -1,0 +1,27 @@
+[Install]
+WantedBy=multi-user.target production.target
+
+[Service]
+AmbientCapabilities=CAP_SYS_NICE
+CPUAffinity=0,1,2,5,6
+Environment=MALLOC_ARENA_MAX=2
+Environment=MALLOC_MMAP_THRESHOLD_=131072
+Environment=TSD_COMMON_CONFIG=/etc/nice/hmi-keypanel.conf
+Environment=TSD_LOGCHANNEL=hmi-keypanel
+Environment=XDG_RUNTIME_DIR=/run/user/0
+ExecStart=/tsd/bin/tsd.keypanel
+Group=display
+SyslogIdentifier=hmi-keypanel
+Type=notify
+User=display
+WatchdogSec=30s
+WorkingDirectory=/tsd/bin
+
+[Unit]
+After=audiomanager.service carcom-proxy-mib3.service cpus-big.service cpus-small.service displaymanager.service early-apps.target
+Before=ioc.target online.target
+Conflicts=ioc.target online.target
+Description=HMI keypanel
+OnFailure=watchdog-reboot.service
+RequiresMountsFor=/run
+Wants=carcom-proxy-mib3.service

@@ -49,7 +49,7 @@ def main_action():
         print("pexpect.EOF")
     elif index == 3:
         print("match infotainment, scripts should run")
-        sys.exit()
+        # sys.exit()
 
 
 from peri_step1 import P_step1

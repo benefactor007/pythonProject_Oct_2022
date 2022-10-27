@@ -1,0 +1,24 @@
+root@192.168.1.4's password: root
+
+hmi-keypanel.service                            0%    0     0.0KB/s   --:-- ETAhmi-keypanel.service                          100%  794     0.8KB/s   00:00    
+root@192.168.1.4's password: root
+
+hmi-keypanel.service                            0%    0     0.0KB/s   --:-- ETAhmi-keypanel.service                          100%  824     0.8KB/s   00:00    
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-gp:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-gp:~]# [mcd /tmp
+cd /tmp
+mv hmi-keypanel.service /usr/lib/systemd/system
+[root@vw-infotainment-gp:/tmp]# [mmv hmi-keypanel.service /usr/lib/systemd/system
+[root@vw-infotainment-gp:/tmp]# [mcat /usr/lib/systemd/system/hmi-keypanel.service |grep "Environment=\"SCALE_HACK=hack\""
+cat /usr/lib/systemd/system/hmi-keypanel.service
+ |grep "Environment=\"SCALE_HACK=hack\""
+Environment="SCALE_HACK=hack"
+sync
+[root@vw-infotainment-gp:/tmp]# [mexit
+sync
+[root@vw-infotainment-gp:/tmp]# [mexit
+Connection to 192.168.1.4 closed.
+cat /usr/lib/systemd/system/hmi-keypanel.service |grep "Environment=\"SCALE_HACK=hack\""

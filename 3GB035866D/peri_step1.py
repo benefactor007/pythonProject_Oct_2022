@@ -184,30 +184,7 @@ class P_step1(JSON):
                     self.nsKey_dict_list.append(dict(zip(column_name_list[:], [x for x in line.split()[:]])))
             # pprint.pprint(self.nsKey_dict_list)
 
-    def set_pexpect_command(self, json_path, json_file, log_path):
-        with open("{0}/{1}".format(json_path, json_file), encoding="utf-8") as json_data, \
-                open(log_path, 'a')as logs:
-            data = json.load(json_data)
-            spawn_command = jsonpath.jsonpath(data, "$.head..spawn_command")[0]
-            logs.write(spawn_command + "\n")
-            if not False:
-                logs.write(
-                    "pexpect.spawn(command={0}, , logfile={1}, encoding={2}, timeout={3})\n".format(spawn_command, logs,
-                                                                                                    "utf-8", "20"))
-                try:
-                    p = pexpect.spawn(command=spawn_command, logfile=logs, encoding='utf-8', timeout=10)
-                    spawn_command_expect = jsonpath.jsonpath(data, "$.head..spawn_command_expect")[0]
-                    logs.write("p.expect({0})\n".format(spawn_command_expect))
-                    p.expect(spawn_command_expect)
-                    for ele_dict in (
-                            jsonpath.jsonpath(data, "$.head[?(@.sendline)]"),
-                            jsonpath.jsonpath(data, "$.body[?(@.sendline)]"),
-                            jsonpath.jsonpath(data, "$.tail[?(@.sendline)]")):
-                        # pprint.pprint(ele_dict)
-                        for i in ele_dict:
-                            P_step1.pAction_v2(i, cls=p)
-                except pexpect.TIMEOUT:
-                    print(P_step1.repr_message("pexpect.TIMEOUT"))
+
 
     def set_pexpect_command_v2(self, json_path, json_file, log_path, error_path):
         with open("{0}/{1}".format(json_path, json_file), encoding="utf-8") as json_data, \
@@ -362,13 +339,10 @@ if __name__ == '__main__':
     ####HERE: pls assign value here####
     #in codingFIles folder
     ref_ns_key_data =  "RecordDataIdOverview_1010.txt"
-    # coding_json_file = "VW_GP_CHN_v0.9.json"
-    coding_json_file = "VW_B_Sample_CHN_JV_v0.3.json"
+    coding_json_file = "VW_GP_CHN_v0.9.json"
     # in json folder
     rawData_ref_ns_key_data = "rawData_DataId_1010.json"
-    # toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.json"
-    toGetKey_file = "[toGetKey]_VW_B_Sample_CHN_JV_v0.3.json"
-    GetKey_file = "[GetKey]_VW_B_Sample_CHN_JV_v0.3.json"
+    toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.json"
     ####
 
     raw_data_json_path = first_step1(HU,ref_ns_key_data,rawData_ref_ns_key_data)
@@ -391,12 +365,7 @@ if __name__ == '__main__':
                                strE="load: ns: {0} key: {1} slot: 0".format(ns[2:], int(key, 16)), str_ns=ns,
                                str_key=key)
     HU.combineAsJson_v2()
-    HU.saveFile(HU.json_dir, toGetKey_file, HU.json_dict)
-    HU.set_pexpect_command_v2(HU.json_dir, toGetKey_file, HU.log_name, HU.error_name)
-    HU.json_dict = dict(zip(["key_data_list", "error_key_data_list"], [HU.key_data_list, HU.error_key_data_list]))
-    # save a jsonFile which has error_key_data_list and key_data_list   <<<<< Step 3
-    HU.saveFile(HU.json_dir, GetKey_file, HU.json_dict)
-
+    HU.saveAsFile(HU.json_dir, toGetKey_file, HU.json_dict)
     sys.exit()
 
 

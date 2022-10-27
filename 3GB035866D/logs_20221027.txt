@@ -1,0 +1,56 @@
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/logs_20221027.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-511741:~]# [mcd /var
+cd /var
+[root@vw-infotainment-511741:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-511741:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sync
+[root@vw-infotainment-511741:/var]# [mexit
+sync
+[root@vw-infotainment-511741:/var]# [mexit
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-511741:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-511741:~]# [mcd /var
+cd /var
+[root@vw-infotainment-511741:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-511741:/var]# [mcd /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-511741:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-511741:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-511741:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+==============================base-identification==============================
+./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF17C
+[root@vw-infotainment-511741:/usr/bin]# [m./tsd.persistence.client.mib3.app.GetKey
+ --ns 0x3000000 --key 0xF17C
+load: ns: 3000000 key: 61820 slot: 0 status: 4 data: 
+[root@vw-infotainment-511741:/usr/bin]# [m

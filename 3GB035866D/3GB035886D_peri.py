@@ -1,4 +1,5 @@
 #! /usr/bin/env python3
+import binascii
 import json
 import os, sys, pexpect
 import pprint
@@ -7,6 +8,9 @@ import subprocess
 import time
 
 import jsonpath
+
+def str_to_hexStr(str_info):
+    return binascii.hexlify(str_info.encode('utf-8')).decode('utf-8')
 
 
 def check_ping(address="192.168.1.4"):
@@ -313,19 +317,27 @@ if __name__ == '__main__':
         # s.expect("store: ns: 80000008 key: 0 slot: 0")
         s.expect("store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5")
         print(s.before.split("\n")[0])
-
+        sys.exit()
         hexadecimal_sw = s.before.split("\n")[0]
         ascii_str_sw = bytes.fromhex("".join(hexadecimal_sw[hexadecimal_sw.index(":") + 1:].split())).decode()
         if ascii_str_sw != "C724":
             print(redFont(f'pls check the SW version => {ascii_str_sw}'))
         else:
             fazits.write(ascii_str_sw + "\n")
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836364620")
-        # s.expect("store: ns: 3000000 key: 61831 slot: 0")
-        s.expect("store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20")
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836364620")
-        # s.expect("store: ns: 3000000 key: 61841 slot: 0")
-        s.expect("store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 46 20")
+        #3GB035866D: 3347423033353836364420
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420")
+        s.expect("store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20")
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420")
+        s.expect("store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20")
+        # set hardware version: X31
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331")
+        s.expect("store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31")
+        # set software version
+        #./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+        # set fazit-id
+        # ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303130332E30352E32323939393930363034
+        # set serial-num
+        # ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303031
         s.sendline("rm -rf tsd.persistence.client.mib3.app.*")
         s.expect("infotainment")
         print("remove tsd.persistence.client.mib3.app.* in /usr/bin")
