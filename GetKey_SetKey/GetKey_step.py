@@ -1,4 +1,4 @@
-import json
+import fazit_clip
 import  os, sys,time
 import subprocess
 
@@ -14,7 +14,7 @@ class sub_P_step1:
     def set_pexpect_command(self, json_path, log_path):
         with open(json_path, encoding="utf-8") as json_data, \
                 open(log_path, 'a')as logs:
-            data = json.load(json_data)
+            data = fazit_clip.load(json_data)
             spawn_command = jsonpath.jsonpath(data, "$.head..spawn_command")[0]
             logs.write(spawn_command + "\n")
             if not False:
@@ -72,11 +72,11 @@ def nextStep():
     errorPath = os.getcwd() + os.sep + "errors_" + time.strftime("%Y%m%d") + ".txt"
     WD_partnum = sub_P_step1(logPath,errorPath)
     # def set_pexpect_command_v2(self, json_path, log_path, error_path):
-    # HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]transfer_files_to_var.json", HU_exec.log_path)
+    # HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]transfer_files_to_var.fazit_clip", HU_exec.log_path)
     toolsPath = os.getcwd() + os.sep + "tools"
     toolsPathList = [toolsPath + os.sep + file for file in os.listdir(toolsPath)]
     print(f"toolsPathList: {toolsPathList}")
-    jsonPath = os.getcwd() + os.sep + "[default]transferFiles.json"
+    jsonPath = os.getcwd() + os.sep + "[default]transferFiles.fazit_clip"
     WD_partnum.transfer_files(toolsPathList, jsonPath)
     print(WD_partnum.greenFont("Transfer was successfully finished"))
     # pprint.pprint(WD_partnum.json_dict)
@@ -86,7 +86,7 @@ def nextStep():
     else:
         pass
     # sys.exit()
-    jsonPath = "file_checksum_expect.json"
+    jsonPath = "file_checksum_expect.fazit_clip"
     # logPath = os.getcwd() + os.sep + "logs_" + time.strftime("%Y%m%d") + ".txt"
     # errorPath = os.getcwd() + os.sep + "errors_" + time.strftime("%Y%m%d") + ".txt"
     WD_partnum.set_pexpect_command(jsonPath, logPath)

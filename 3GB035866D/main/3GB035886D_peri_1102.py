@@ -242,11 +242,12 @@ def nextStep():
     WD_partnum = sub_P_step1(logPath,errorPath)
     # def set_pexpect_command_v2(self, json_path, log_path, error_path):
     # HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]transfer_files_to_var.fazit_clip", HU_exec.log_path)
-    toolsPath = os.getcwd() + os.sep + "tools"
+    # toolsPath = os.getcwd() + os.sep + "tools"
+    toolsPath = os.path.split(os.getcwd())[0] + os.sep + "tools"
     print(f"toolsPath => {toolsPath}")
     toolsPathList = [toolsPath + os.sep + file for file in os.listdir(toolsPath)]
     print(f"toolsPathList: {toolsPathList}")
-    jsonPath = os.getcwd() + os.sep + "[default]transferFiles.json"
+    jsonPath = os.path.split(os.getcwd())[0] + os.sep + "[default]transferFiles.json"
     WD_partnum.transfer_files(toolsPathList, jsonPath)
     print(WD_partnum.greenFont("Transfer was successfully finished"))
     # pprint.pprint(WD_partnum.json_dict)
@@ -283,9 +284,33 @@ def redFont(str):
 
 
 if __name__ == '__main__':
-    from Get_key_step1 import final_get_vaild_fazit,final_change_fazit_status
-    print("to exec. os.chdir")
-    os.chdir(os.path.abspath(os.path.dirname(__file__)))
+    from Get_key_step1 import final_get_vaild_fazit,final_change_fazit_status,set_real_cwd,final_change_data_status,final_get_vaild_data,final_reset_data
+
+
+
+
+    # fazitPath = os.getcwd() + os.sep + "fazit_" + time.strftime("%Y%m%d") + ".txt"
+    givenBrand = "SVW"          # set before run
+    givenFazitJson = "svw_fazit.json" # set before run
+    # givenBrand = "FAW"  # set before run
+    # givenFazitJson = "faw_fazit.json"  # set before run
+
+    # """
+    # Warning: reset only
+    # """
+    # os.chdir(os.path.abspath(os.path.dirname(__file__)))
+    # print(f"set cwd to {os.path.abspath(os.path.dirname(__file__))}")
+    # fazit_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "fazit_clip"
+    # fazit_jsonPath = fazit_clip_dir + os.sep + givenFazitJson
+    # print(f"fazit_jsonPath => {fazit_jsonPath}")
+    # print(final_reset_data(fazit_jsonPath,givenBrand))
+    # serialNum_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "serialNum_clip"
+    # serialNum_jsonPath = serialNum_clip_dir + os.sep + "serial_num.json"
+    # print(f"serialNum_jsonPath => {serialNum_jsonPath}")
+    # print(final_reset_data(serialNum_jsonPath,"serial_num"))
+    # sys.exit()
+    # #############################################
+
     main_action()
     print(f"os.getcwd() => {os.getcwd()}")
     logPath = os.getcwd() + os.sep + "logs_" + time.strftime("%Y%m%d") + ".txt"
@@ -299,13 +324,28 @@ if __name__ == '__main__':
         print("\n" + "=" * 70 + "\n" + padding_len2 % current_time + "\n" + "=" * 70 + "\n")
         logs.write("\n" + "=" * 70 + "\n" + padding_len2 % current_time + "\n")
         # fazit_id_char = input("pls input the fazit_id:\n")   # version 1: get fazit via keyboard input
-        valid_fazit = final_get_vaild_fazit("FAW")
+        # set_real_cwd()
+        os.chdir(os.path.abspath(os.path.dirname(__file__)))
+        print(f"set cwd to {os.path.abspath(os.path.dirname(__file__))}")
+        fazit_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "fazit_clip"
+        fazit_jsonPath = fazit_clip_dir + os.sep + givenFazitJson
+        valid_fazit = final_get_vaild_data(fazit_jsonPath,givenBrand,"fazit")
         if valid_fazit:
-            fazit_id_char = valid_fazit[0]
+            fazit_id_char = valid_fazit
+            print(f"fazit_id_char => {fazit_id_char}")
         else:
-            print(f"The status of valid: {valid_fazit}\n It seems that there is no valid fazit id\n")
+            print(f"The status of valid: {valid_fazit}\nIt seems that there is no valid fazit id\n")
             sys.exit()
-        serial_char = input("pls input the serialnum:\n")
+        serialNum_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "serialNum_clip"
+        serialNum_jsonPath = serialNum_clip_dir + os.sep + "serial_num.json"
+        valid_serial = final_get_vaild_data(serialNum_jsonPath,"serial_num","serial")
+        if valid_serial:
+            serial_char = valid_serial
+            print(f"serial_char => {serial_char}")
+        else:
+            print(f"The status of valid: {valid_serial}\nIt seems that there is no valid serial num\n")
+            sys.exit()
+        # serial_char = input("pls input the serialnum:\n")
         s = pexpect.spawn("ssh root@192.168.1.4", logfile=logs, encoding="utf-8", timeout=10)
         s.expect("password")
         s.sendline("root")
@@ -416,12 +456,16 @@ if __name__ == '__main__':
         # s.sendline("exit")
         s.sendline("reboot")
         s.expect("Connection to 192.168.1.4 closed")
-
-        fazits.write(f'{time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time()))}\n')
-        fazits.write("=" * 60 + "\n")
-        fazits.write(f"fazit_id_char => {fazit_id_char}\n")
-        fazits.write(f"serial_char => {serial_char}\n")
-        fazits.write("=" * 60 + "\n")
+        fazits.write("start" + "*" * 60 + "\n")
+        print(f"to exec. final_change_fazit_status")
+        case1 = final_change_data_status(fazit_jsonPath,fazit_id_char,givenBrand,"fazit")
+        print(f"to exec. final_change_data_status")
+        case2 = final_change_data_status(serialNum_jsonPath,serial_char,"serial_num","serial")
+        if case1 and case2:
+            fazits.write(f'{time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time()))}\n')
+            fazits.write(f"fazit_id_char => {fazit_id_char}\n")
+            fazits.write(f"serial_char => {serial_char}\n")
+        fazits.write("end" + "=" * 60 + "\n")
         print("\n" + "=" * 70 + "\n" + padding_len % green_str + "\n" + "=" * 70 + "\n")
         logs.write("\n" + padding_len % green_str + "\n" + "=" * 70 + "\n")
 

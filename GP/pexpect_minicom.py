@@ -9,7 +9,7 @@ from temp_exec2 import main_action,check_ping
 def doPexpect(p_command):
     # with open("minicom_log.txt", 'w') as my_log_file:
     p = pexpect.spawn(command=p_command, logfile=sys.stdout, encoding='utf-8', timeout=30)
-    # json_list = HU.get_json_info("p_script1.json", "$.p_script1.*")
+    # json_list = HU.get_json_info("p_script1.fazit_clip", "$.p_script1.*")
     p.expect("password")
     p.sendline("jpcc")
     p.expect("Welcome to minicom")
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     with open(logPath, "a") as logs:
         logs.write("here is log from minicom\n")
         m = pexpect.spawn(command="sudo minicom", logfile=logs, encoding='utf-8', timeout=30)
-        # json_list = HU.get_json_info("p_script1.json", "$.p_script1.*")
+        # json_list = HU.get_json_info("p_script1.fazit_clip", "$.p_script1.*")
         m.expect("password")
         m.sendline("jpcc")
         m.expect("Welcome to minicom")

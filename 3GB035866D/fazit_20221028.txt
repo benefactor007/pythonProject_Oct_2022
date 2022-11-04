@@ -1,0 +1,62 @@
+
+
+
+
+
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove vkms_i* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var
+remove vkms_i* in /var
+fazit_id_char => X9G-10103.05.2299990606serial_char => VWX9GA3644003
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove vkms_i* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var
+remove vkms_i* in /var
+fazit_id_char => X9G-10103.05.2299990607
+serial_char => VWX9GA3644004
+
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove vkms_i* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var
+remove vkms_i* in /var
+fazit_id_char => X9G-10103.05.2299990607
+serial_char => VWX9GA3644004
+fazit_id_char => X9G-10103.05.2299990607
+serial_char => VWX9GA3644004
+fazit_id_char => X9G-10103.05.2299990607
+serial_char => VWX9GA3644004
+
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove vkms_i* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var
+remove vkms_i* in /var
+============================================================
+20221028_17_41_07
+fazit_id_char => X9G-10103.05.2299990608
+serial_char => VWX9GA3644005
+============================================================
+============================================================
+20221028_17_46_11
+fazit_id_char => X9G-10203.05.2299990640
+serial_char => VWX9GA3644006
+============================================================
+============================================================
+20221028_17_52_13
+fazit_id_char => X9G-10203.05.2299990641
+serial_char => VWX9GA3644007
+============================================================
+============================================================
+20221028_18_07_12
+fazit_id_char => X9G-10203.05.2299990642
+serial_char => 
+============================================================
+============================================================
+20221028_18_07_50
+fazit_id_char => X9G-10203.05.2299990642
+serial_char => VWX9GA3644008
+============================================================
+============================================================
+20221028_18_11_07
+fazit_id_char => X9G-10203.05.2299990643
+serial_char => VWX9GA3644009
+============================================================

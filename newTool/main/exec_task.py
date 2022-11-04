@@ -7,13 +7,13 @@ import jsonpath
 if __name__ == '__main__':
     print(f"os.getcwd():{os.getcwd()}")
     print(os.path.split(os.getcwd())[0])
-    json_folder = os.path.split(os.getcwd())[0] + os.sep + "json"
+    json_folder = os.path.split(os.getcwd())[0] + os.sep + "fazit_clip"
     print(os.listdir(json_folder))
     json_path_list = [json_folder + os.sep + x for x in os.listdir(json_folder)]
     print(json_path_list)
     # sys.exit()
     # with open(json_file_name, encoding=codingFormat) as json_file:
-    #         data = json.load(json_file)
+    #         data = fazit_clip.load(json_file)
     #         res = jsonpath.jsonpath(data, jsonPathDesc)
     #     return res
     with open(json_path_list[0]) as jsonFile:

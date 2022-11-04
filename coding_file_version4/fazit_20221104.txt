@@ -1,0 +1,8 @@
+ data: 58 39 47 2d 31 30 31 31 39 2e 31 30 2e 32 32 39 39 39 39 30 31 36 37 
+C724
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var
+ data: 58 39 47 2d 31 30 32 31 39 2e 31 30 2e 32 32 39 39 39 39 30 30 31 30 
+C724
+remove tsd.persistence.client.mib3.app.* in /usr/bin
+remove tsd.persistence.client.mib3.app.* in /var

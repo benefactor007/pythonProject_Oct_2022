@@ -122,7 +122,7 @@ class P_step1(JSON):
         """
       :param json_file_name:
       :param jsonPathDesc:
-      :return: dict(json's data)
+      :return: dict(fazit_clip's data)
       """
         import json, jsonpath
         # print(P_step1.repr_message(json_file_name))
@@ -282,7 +282,7 @@ class P_step1(JSON):
 if __name__ == '__main__':
     HU = P_step1()
     HU.setProjectDir(os.path.dirname(os.getcwd()))
-    HU.setJsonDir("/json")
+    HU.setJsonDir("/fazit_clip")
     HU.set_codingFiles("/codingFiles")
     HU.setLogDir("/logs")
     HU.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
@@ -329,7 +329,7 @@ if __name__ == '__main__':
 
         :param instance: As instance
         :param file_name:  input file like "RecordDataIdOverview_0927.txt" which includes ns key longname
-        :param new_json_name: create a new json file like rawData_DataId_0929.json
+        :param new_json_name: create a new fazit_clip file like rawData_DataId_0929.fazit_clip
         :return:
         """
         instance.set_nsKey_dict(file_name)
@@ -339,14 +339,14 @@ if __name__ == '__main__':
     ####HERE: pls assign value here####
     #in codingFIles folder
     ref_ns_key_data =  "RecordDataIdOverview_1010.txt"
-    coding_json_file = "VW_GP_CHN_v0.9.json"
-    # in json folder
-    rawData_ref_ns_key_data = "rawData_DataId_1010.json"
-    toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.json"
+    coding_json_file = "VW_GP_CHN_v0.9.fazit_clip"
+    # in fazit_clip folder
+    rawData_ref_ns_key_data = "rawData_DataId_1010.fazit_clip"
+    toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.fazit_clip"
     ####
 
     raw_data_json_path = first_step1(HU,ref_ns_key_data,rawData_ref_ns_key_data)
-    print("new json file is {0}".format(raw_data_json_path))
+    print("new fazit_clip file is {0}".format(raw_data_json_path))
     diff_res = list(HU.find_diff(coding_json_file, os.path.split(raw_data_json_path)[-1]))
     print(diff_res)
     # we got coding file key
@@ -378,9 +378,9 @@ if __name__ == '__main__':
 
     ####################################################################
     HU.set_nsKey_dict("RecordDataIdOverview_0927.txt")
-    HU.setJsonDir("/json")
+    HU.setJsonDir("/fazit_clip")
     print("{0}:\t{1}".format("HU.json_dir", HU.json_dir))
-    jsonFile = "rawData_DataId_0929.json"
+    jsonFile = "rawData_DataId_0929.fazit_clip"
     # save a jsonFile which get from RecordDataIdOverview_0927 <<<<< Step 1
     HU.saveAsFile(HU.json_dir, jsonFile, HU.nsKey_dict_list)  # save as jsonFile
     rawDataFile = HU.json_dir + "/" + jsonFile
@@ -393,12 +393,12 @@ if __name__ == '__main__':
                                str_key=key)
     HU.combineAsJson_v2()
     # save a jsonFile which has data, sendline,ns, key, expect   <<<<< Step 2
-    HU.saveAsFile(HU.json_dir, "DataId_0929.json", HU.json_dict)  # save as jsonFile
+    HU.saveAsFile(HU.json_dir, "DataId_0929.fazit_clip", HU.json_dict)  # save as jsonFile
     # run pexpect in HU
-    HU.set_pexpect_command_v2(HU.json_dir, "DataId_0929.json", HU.log_name, HU.error_name)
+    HU.set_pexpect_command_v2(HU.json_dir, "DataId_0929.fazit_clip", HU.log_name, HU.error_name)
     HU.json_dict = dict(zip(["key_data_list", "error_key_data_list"], [HU.key_data_list, HU.error_key_data_list]))
     # save a jsonFile which has error_key_data_list and key_data_list   <<<<< Step 3
-    HU.saveAsFile(HU.json_dir, "rawData_GetKey_0929.json", HU.json_dict)
+    HU.saveAsFile(HU.json_dir, "rawData_GetKey_0929.fazit_clip", HU.json_dict)
 
 
     #####################################################################################################
@@ -406,7 +406,7 @@ if __name__ == '__main__':
     def Get_key():
         HU = P_step1()
         HU.setProjectDir(os.path.dirname(os.getcwd()))
-        HU.setJsonDir("/json")
+        HU.setJsonDir("/fazit_clip")
         HU.set_codingFiles("/codingFiles")
         HU.setLogDir("/logs")
         HU.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
@@ -416,10 +416,10 @@ if __name__ == '__main__':
 
         def persistence_getkey():
             HU.set_nsKey_dict("persistenceOverview_0929.txt")
-            HU.setJsonDir("/json")
+            HU.setJsonDir("/fazit_clip")
             print("{0}:\t{1}".format("HU.json_dir", HU.json_dir))
-            HU.saveAsFile(HU.json_dir, "rawData_persistence.json", HU.nsKey_dict_list)
-            rawDataFile = HU.json_dir + "/" + "rawData_persistence.json"
+            HU.saveAsFile(HU.json_dir, "rawData_persistence.fazit_clip", HU.nsKey_dict_list)
+            rawDataFile = HU.json_dir + "/" + "rawData_persistence.fazit_clip"
             ns_list = HU.get_json_info(rawDataFile, "$..Namespace_hex", codingFormat="utf_8_sig")
             key_list = HU.get_json_info(rawDataFile, "$..Key", codingFormat="utf_8_sig")
             for ns, key in zip(ns_list, key_list):
@@ -429,8 +429,8 @@ if __name__ == '__main__':
                         , strE="load: ns: {0} key: {1} slot: 0".format(ns[2:], int(key, 16)), \
                         str_ns=ns, str_key=key)
             HU.combineAsJson_v2()  # In this func, it sets the self.json_dict
-            HU.saveAsFile(HU.json_dir, "persistence.json", HU.json_dict)
-            HU.set_pexpect_command_v2(HU.json_dir, "persistence.json", HU.log_name, HU.error_name)
+            HU.saveAsFile(HU.json_dir, "persistence.fazit_clip", HU.json_dict)
+            HU.set_pexpect_command_v2(HU.json_dir, "persistence.fazit_clip", HU.log_name, HU.error_name)
 
         return persistence_getkey
 
@@ -438,14 +438,14 @@ if __name__ == '__main__':
     # Get_key()()
 
     """
-    exec. to create json file for persistence Getkey
+    exec. to create fazit_clip file for persistence Getkey
     
     # print(HU.codingFiles_dir)
     # HU.set_nsKey_dict("persistenceOverview_0929.txt")
-    # HU.setJsonDir("/json")
+    # HU.setJsonDir("/fazit_clip")
     # print("{0}:\t{1}".format("HU.json_dir", HU.json_dir))
-    # HU.saveAsFile(HU.json_dir, "rawData_persistence.json", HU.nsKey_dict_list)
-    # rawDataFile = HU.json_dir + "/" + "rawData_persistence.json"
+    # HU.saveAsFile(HU.json_dir, "rawData_persistence.fazit_clip", HU.nsKey_dict_list)
+    # rawDataFile = HU.json_dir + "/" + "rawData_persistence.fazit_clip"
     # ns_list = HU.get_json_info(rawDataFile, "$..Namespace_hex", codingFormat="utf_8_sig")
     # key_list = HU.get_json_info(rawDataFile, "$..Key", codingFormat="utf_8_sig")
     # for ns, key in zip(ns_list, key_list):
@@ -454,46 +454,46 @@ if __name__ == '__main__':
     #                            , strE="load: ns: {0} key: {1} slot: 0".format(ns[2:], int(key, 16)), \
     #                            str_ns=ns, str_key=key)
     # HU.combineAsJson_v2()  # In this func, it sets the self.json_dict
-    # HU.saveAsFile(HU.json_dir, "persistence.json", HU.json_dict)
+    # HU.saveAsFile(HU.json_dir, "persistence.fazit_clip", HU.json_dict)
     
     exec. to run pexpect commmand in HU
     
-    # HU.set_pexpect_command_v2(HU.json_dir, "persistence.json", HU.log_name,HU.error_name)
+    # HU.set_pexpect_command_v2(HU.json_dir, "persistence.fazit_clip", HU.log_name,HU.error_name)
     """
 
 
     def Get_all_key():
         HU = P_step1()
         HU.setProjectDir(os.path.dirname(os.getcwd()))
-        HU.setJsonDir("/json")
+        HU.setJsonDir("/fazit_clip")
         HU.set_codingFiles("/codingFiles")
         HU.setLogDir("/logs")
         HU.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
         HU.setErrorDir("/errors")
         HU.error_name += "/error_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
         print(HU.codingFiles_dir)
-        HU.set_pexpect_command_v2(HU.json_dir, "DataId.json", HU.log_name, HU.error_name)
+        HU.set_pexpect_command_v2(HU.json_dir, "DataId.fazit_clip", HU.log_name, HU.error_name)
         HU.json_dict = dict(zip(["key_data_list", "error_key_data_list"], [HU.key_data_list, HU.error_key_data_list]))
-        HU.saveAsFile(HU.json_dir, "rawData_GetKey.json", HU.json_dict)
+        HU.saveAsFile(HU.json_dir, "rawData_GetKey.fazit_clip", HU.json_dict)
 
 
     # Get_all_key()
     def persistence_set_key():
         HU_set = P_step1()
         HU_set.setProjectDir(os.path.dirname(os.getcwd()))
-        HU_set.setJsonDir("/json")
+        HU_set.setJsonDir("/fazit_clip")
         HU_set.set_codingFiles("/codingFiles")
         HU_set.setLogDir("/logs")
         HU_set.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
         HU_set.setErrorDir("/errors")
         HU_set.error_name += "/error_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
         print("{0}:\t{1}".format("HU_set.codingFiles_dir", HU_set.codingFiles_dir))
-        # json_name = "persistence.json"
+        # json_name = "persistence.fazit_clip"
         HU_set.set_nsKey_dict("persistenceOverview_wData_0929.txt")
-        HU_set.setJsonDir("/json")
+        HU_set.setJsonDir("/fazit_clip")
         print("{0}:\t{1}".format("HU.json_dir", HU_set.json_dir))
-        HU_set.saveAsFile(HU_set.json_dir, "rawData_persistence_wDat.json", HU_set.nsKey_dict_list)
-        rawDataFile = HU_set.json_dir + "/" + "rawData_persistence_wDat.json"
+        HU_set.saveAsFile(HU_set.json_dir, "rawData_persistence_wDat.fazit_clip", HU_set.nsKey_dict_list)
+        rawDataFile = HU_set.json_dir + "/" + "rawData_persistence_wDat.fazit_clip"
         ns_list = HU_set.get_json_info(rawDataFile, "$..Namespace_hex", codingFormat="utf_8_sig")
         key_list = HU_set.get_json_info(rawDataFile, "$..Key", codingFormat="utf_8_sig")
         data_list = HU_set.get_json_info(rawDataFile, "$..Data", codingFormat="utf_8_sig")
@@ -504,6 +504,6 @@ if __name__ == '__main__':
                     , strE="store: ns: {0} key: {1} slot: 0".format(ns[2:], int(key, 16)), \
                     str_ns=ns, str_key=key, str_data=data)
         HU_set.combineAsJson_v2()  # In this func, it sets the self.json_dict
-        HU_set.saveAsFile(HU_set.json_dir, "persistence_wDat.json", HU_set.json_dict)
-        HU_set.set_pexpect_command_v2(HU_set.json_dir, "persistence_wDat.json", HU_set.log_name, HU_set.error_name)
+        HU_set.saveAsFile(HU_set.json_dir, "persistence_wDat.fazit_clip", HU_set.json_dict)
+        HU_set.set_pexpect_command_v2(HU_set.json_dir, "persistence_wDat.fazit_clip", HU_set.log_name, HU_set.error_name)
         pprint.pprint(HU_set.key_data_list)

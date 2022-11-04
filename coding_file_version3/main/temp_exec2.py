@@ -133,5 +133,5 @@ if __name__ == '__main__':
     WD_partnum = P_step1()
     WD_partnum.setJsonDir()
 
-    WD_partnum.set_pexpect_command_v2(WD_partnum.json_dir, "persistence_wDat.json", WD_partnum.log_name,
+    WD_partnum.set_pexpect_command_v2(WD_partnum.json_dir, "persistence_wDat.fazit_clip", WD_partnum.log_name,
                                       WD_partnum.error_name)

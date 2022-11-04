@@ -18,7 +18,7 @@ class P_step1_v2(Scp):
     # @staticmethod
     # def saveAsFile(file_path, file_name, json_data):
     #     path = P_step1_v2.auto_save_file(file_path + "/" + file_name)
-    #     json.dump(json_data, open(path, 'w'), ensure_ascii=False,
+    #     fazit_clip.dump(json_data, open(path, 'w'), ensure_ascii=False,
     #               indent=4, separators=(", ", " : "))
     #     # print("{0} is {1}".format("path",path))
     #     return path
@@ -26,7 +26,7 @@ class P_step1_v2(Scp):
     # @staticmethod
     # def saveFile(file_path, file_name, json_data):
     #     path = file_path + os.sep + file_name
-    #     json.dump(json_data, open(path, 'w'), ensure_ascii=False,
+    #     fazit_clip.dump(json_data, open(path, 'w'), ensure_ascii=False,
     #               indent=4, separators=(", ", " : "))
     #     # print("{0} is {1}".format("path",path))
     #     return path
@@ -103,24 +103,24 @@ def persistence_set_key():
     # print("*" * 60)
     HU_set.json_list = []
     HU_set.setProjectDir(os.path.dirname(os.getcwd()))
-    HU_set.setJsonDir("/json")
+    HU_set.setJsonDir("/fazit_clip")
     HU_set.set_codingFiles("/codingFiles")
     HU_set.setLogDir("/logs")
     HU_set.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
     HU_set.setErrorDir("/errors")
     HU_set.error_name += "/error_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
     print("{0}:\t{1}".format("HU_set.codingFiles_dir", HU_set.codingFiles_dir))
-    # json_name = "persistence.json"
+    # json_name = "persistence.fazit_clip"
     ####HERE: pls assign value here####
     # HU_set.set_nsKey_dict("persistenceOverview_wData_0929.txt")
 
     HU_set.set_nsKey_dict("pers_partNum_5HG035866F.txt")
     ####pls assign value above####
-    HU_set.setJsonDir("/json")
+    HU_set.setJsonDir("/fazit_clip")
     print("{0}:\t{1}".format("HU.json_dir", HU_set.json_dir))
-    HU_set.saveFile(HU_set.json_dir, "pers_partNum_5HG035866F.json", HU_set.nsKey_dict_list)
+    HU_set.saveFile(HU_set.json_dir, "pers_partNum_5HG035866F.fazit_clip", HU_set.nsKey_dict_list)
     # sys.exit()
-    rawDataFile = HU_set.json_dir + "/" + "pers_partNum_5HG035866F.json"
+    rawDataFile = HU_set.json_dir + "/" + "pers_partNum_5HG035866F.fazit_clip"
     ns_list = HU_set.get_json_info(rawDataFile, "$..Namespace_hex", codingFormat="utf_8_sig")
     key_list = HU_set.get_json_info(rawDataFile, "$..Key", codingFormat="utf_8_sig")
     data_list = HU_set.get_json_info(rawDataFile, "$..Data", codingFormat="utf_8_sig")
@@ -131,8 +131,8 @@ def persistence_set_key():
                 , strE="store: ns: {0} key: {1} slot: 0".format(ns[2:], int(key, 16)), \
                 str_ns=ns, str_key=key, str_data=data)
     HU_set.combineAsJson_v2("/usr/bin")  # In this func, it sets the self.json_dict
-    HU_set.saveFile(HU_set.json_dir, "SetKey_" + "pers_partNum_5HG035866F.json", HU_set.json_dict)
-    HU_set.set_pexpect_command_v2(HU_set.json_dir, "SetKey_" + "pers_partNum_5HG035866F.json", HU_set.log_name, HU_set.error_name)
+    HU_set.saveFile(HU_set.json_dir, "SetKey_" + "pers_partNum_5HG035866F.fazit_clip", HU_set.json_dict)
+    HU_set.set_pexpect_command_v2(HU_set.json_dir, "SetKey_" + "pers_partNum_5HG035866F.fazit_clip", HU_set.log_name, HU_set.error_name)
     pprint.pprint(HU_set.key_data_list)
 
 if __name__ == '__main__':
@@ -163,20 +163,20 @@ if __name__ == '__main__':
     # sys.exit()
     HU_exec = P_step1_v2()
     HU_exec.setProjectDir(os.path.dirname(os.getcwd()))
-    HU_exec.setJsonDir("json")
+    HU_exec.setJsonDir("fazit_clip")
     HU_exec.setLogDir("logs")
     HU_exec.log_path = HU_exec.logs_folder + "/HU_exec_" + time.strftime("%Y%m%d_%H_%M_%S",
                                                                          time.localtime(time.time())) + ".txt"
     HU_exec.add_send_expect_v2(strS = "disable-dm-verity.sh", strE = ["Connection","infotainment"])
     HU_exec.combineAsJson_v2("/var")
-    HU_exec.saveFile(HU_exec.json_folder, "[default]exec_disable-dm-verity.json", HU_exec.json_dict)
-    HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]exec_disable-dm-verity.json", HU_exec.log_path)
+    HU_exec.saveFile(HU_exec.json_folder, "[default]exec_disable-dm-verity.fazit_clip", HU_exec.json_dict)
+    HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]exec_disable-dm-verity.fazit_clip", HU_exec.log_path)
     # sys.exit()
 
     HU_exec = P_step1_v2()
     HU_exec.json_list = []
     HU_exec.setProjectDir(os.path.dirname(os.getcwd()))
-    HU_exec.setJsonDir("json")
+    HU_exec.setJsonDir("fazit_clip")
     HU_exec.setLogDir("logs")
     HU_exec.log_path = HU_exec.logs_folder +  "/HU_exec_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
     HU_exec.add_send_expect_v2(strS="mount-read-write.sh", strE = "infotainment")
@@ -188,8 +188,8 @@ if __name__ == '__main__':
         HU_exec.add_send_expect(f"sha1sum {os.path.split(i)[-1]}",
                             f"{HU_exec.getSha1sum(i).split()[0]}  {os.path.split(i)[-1]}")
     HU_exec.combineAsJson_v2("/var")
-    HU_exec.saveFile(HU_exec.json_folder, "[default]transfer_files_to_var.json", HU_exec.json_dict)
-    HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]transfer_files_to_var.json", HU_exec.log_path)
+    HU_exec.saveFile(HU_exec.json_folder, "[default]transfer_files_to_var.fazit_clip", HU_exec.json_dict)
+    HU_exec.set_pexpect_command_v1(HU_exec.json_folder, "[default]transfer_files_to_var.fazit_clip", HU_exec.log_path)
     # sys.exit()
 
     persistence_set_key()

@@ -1,0 +1,475 @@
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+yes
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102==============================
+******************************20221102******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102==============================
+******************************20221102_17_27_38******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_27_38==============================
+
+******************************20221102_17_28_12******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+
+==============================20221102_17_28_12==============================
+
+******************************20221102_17_28_33******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_28_33==============================
+
+
+******************************20221102_17_28_38******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_28_38==============================
+
+
+******************************20221102_17_30_11******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_30_11==============================
+
+
+******************************20221102_17_30_21******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_30_21==============================
+
+
+******************************20221102_17_30_22******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_30_22==============================
+
+
+******************************20221102_17_31_04******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_31_04==============================
+
+
+******************************20221102_17_31_59******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_31_59==============================
+
+
+******************************20221102_17_32_08******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_32_08==============================
+
+
+******************************20221102_17_37_23******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+
+******************************20221102_17_37_30******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_37_30==============================
+
+
+******************************20221102_17_38_41******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_38_41==============================
+
+
+******************************20221102_17_39_05******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990631[0m
+==============================20221102_17_39_05==============================
+
+
+******************************20221102_17_39_14******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990632[0m
+==============================20221102_17_39_14==============================
+
+
+******************************20221102_17_39_14******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990633[0m
+==============================20221102_17_39_14==============================
+
+
+******************************20221102_17_39_15******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990634[0m
+==============================20221102_17_39_15==============================
+
+
+******************************20221102_17_39_16******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990635[0m
+==============================20221102_17_39_16==============================
+
+
+******************************20221102_17_39_16******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990636[0m
+==============================20221102_17_39_16==============================
+
+
+******************************20221102_17_39_16******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990637[0m
+==============================20221102_17_39_16==============================
+
+
+******************************20221102_17_39_17******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990638[0m
+==============================20221102_17_39_17==============================
+
+
+******************************20221102_17_39_17******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990639[0m
+==============================20221102_17_39_17==============================
+
+
+******************************20221102_17_39_17******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990640[0m
+==============================20221102_17_39_17==============================
+
+
+******************************20221102_17_39_17******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990641[0m
+==============================20221102_17_39_17==============================
+
+
+******************************20221102_17_39_18******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990642[0m
+==============================20221102_17_39_18==============================
+
+
+******************************20221102_17_39_19******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990643[0m
+==============================20221102_17_39_19==============================
+
+
+******************************20221102_17_39_25******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990644[0m
+==============================20221102_17_39_25==============================
+
+
+******************************20221102_17_39_25******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990645[0m
+==============================20221102_17_39_25==============================
+
+
+******************************20221102_17_39_25******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990646[0m
+==============================20221102_17_39_25==============================
+
+
+******************************20221102_17_39_26******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990647[0m
+==============================20221102_17_39_26==============================
+
+
+******************************20221102_17_39_26******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990648[0m
+==============================20221102_17_39_26==============================
+
+
+******************************20221102_17_39_27******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990649[0m
+==============================20221102_17_39_27==============================
+
+
+******************************20221102_17_39_27******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990650[0m
+==============================20221102_17_39_27==============================
+
+
+******************************20221102_17_39_27******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990651[0m
+==============================20221102_17_39_27==============================
+
+
+******************************20221102_17_39_28******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990652[0m
+==============================20221102_17_39_28==============================
+
+
+******************************20221102_17_39_29******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990653[0m
+==============================20221102_17_39_29==============================
+
+
+******************************20221102_17_39_30******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990654[0m
+==============================20221102_17_39_30==============================
+
+
+******************************20221102_17_39_30******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990655[0m
+==============================20221102_17_39_30==============================
+
+
+******************************20221102_17_39_31******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990656[0m
+==============================20221102_17_39_31==============================
+
+
+******************************20221102_17_39_32******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990657[0m
+==============================20221102_17_39_32==============================
+
+
+******************************20221102_17_39_32******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990658[0m
+==============================20221102_17_39_32==============================
+
+
+******************************20221102_17_39_33******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990659[0m
+==============================20221102_17_39_33==============================
+
+
+******************************20221102_17_39_34******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990660[0m
+==============================20221102_17_39_34==============================
+
+
+******************************20221102_17_39_34******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+
+******************************20221102_17_42_04******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+The status of valid: False
+==============================20221102_17_42_04==============================
+
+
+******************************20221102_17_42_05******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+The status of valid: False
+==============================20221102_17_42_05==============================
+
+
+******************************20221102_17_42_12******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_42_12==============================
+
+
+******************************20221102_17_42_22******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[32mfazit: X9G-10203.05.2299990657[0m
+==============================20221102_17_42_22==============================
+
+
+******************************20221102_17_42_23******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_42_23==============================
+
+
+******************************20221102_17_47_27******************************
+set cwd to /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/main
+fazit_clip_dir => /home/jpcc/PycharmProjects/pythonProject_Oct_2022/GetKey_SetKey/fazit_clip
+['faw_fazit.json', 'svw_fazit.json']
+brand name => FAW
+[31mThere is no valid FAW fazit[0m
+==============================20221102_17_47_27==============================
+

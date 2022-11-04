@@ -42,9 +42,9 @@ if __name__ == '__main__':
     print(f"cwd: {cwd}")
     print(f"os.path.split(cwd)[0]: {os.path.split(cwd)[0]}")
     # cwd: / home / jpcc / PycharmProjects / pythonProject_Oct_2022
-    json_folder_path = cwd + os.sep + "json"
+    json_folder_path = cwd + os.sep + "fazit_clip"
     print(f"json_folder_path: {json_folder_path}")
-    # json_folder_path: / home / jpcc / PycharmProjects / pythonProject_Oct_2022 / json
+    # json_folder_path: / home / jpcc / PycharmProjects / pythonProject_Oct_2022 / fazit_clip
     svw_fazit = []
     main_folder_path = cwd + os.sep + "main"
 
@@ -66,14 +66,14 @@ if __name__ == '__main__':
         pprint.pprint(fazit_dict)
         return fazit_dict
 
-    saveFile(json_folder_path,"faw_fazit.json",store_fazit_data("FAW", main_folder_path + os.sep + "tmp1.txt"))
-    saveFile(json_folder_path, "svw_fazit.json", store_fazit_data("SVW",  main_folder_path + os.sep + "tmp2.txt"))
+    saveFile(json_folder_path,"faw_fazit.fazit_clip",store_fazit_data("FAW", main_folder_path + os.sep + "tmp1.txt"))
+    saveFile(json_folder_path, "svw_fazit.fazit_clip", store_fazit_data("SVW",  main_folder_path + os.sep + "tmp2.txt"))
 
     def get_json_info(json_path, jsonPathDesc, codingFormat=None):
         """
       :param json_file_name:
       :param jsonPathDesc:
-      :return: dict(json's data)
+      :return: dict(fazit_clip's data)
       """
         import json, jsonpath
         # print(P_step1.repr_message(json_file_name))
@@ -84,31 +84,31 @@ if __name__ == '__main__':
 
 
     import glob
-    print(glob.glob(json_folder_path + os.sep + "*.json"))
+    print(glob.glob(json_folder_path + os.sep + "*.fazit_clip"))
 
 
     def Merge_json(folder_path, codingFormat=None):
         import glob
         res = []
-        for f in glob.glob(folder_path + os.sep + "*.json"):
+        for f in glob.glob(folder_path + os.sep + "*.fazit_clip"):
             print(f)
             with open(f, "r") as json_data:
                 res.append(json.load(json_data))
-        # with open("result.json", "w",encoding = codingFormat) as res_file:
-        #     json.dump(res, res_file, ensure_ascii=False)
+        # with open("result.fazit_clip", "w",encoding = codingFormat) as res_file:
+        #     fazit_clip.dump(res, res_file, ensure_ascii=False)
         json.dump(res, open("res.json", 'w'), ensure_ascii=False,indent=4, separators=(", ", " : "))
         return res
 
     def Merge_json(folder_path, codingFormat=None):
         import glob
         res = {}
-        for f in glob.glob(folder_path + os.sep + "*.json"):
+        for f in glob.glob(folder_path + os.sep + "*.fazit_clip"):
             print(f)
             with open(f, "r") as json_data:
-                # res.append(json.load(json_data))
+                # res.append(fazit_clip.load(json_data))
                 res.update(json.load(json_data))
-        # with open("result.json", "w",encoding = codingFormat) as res_file:
-        #     json.dump(res, res_file, ensure_ascii=False)
+        # with open("result.fazit_clip", "w",encoding = codingFormat) as res_file:
+        #     fazit_clip.dump(res, res_file, ensure_ascii=False)
         json.dump(res, open("res.json", 'w'), ensure_ascii=False,indent=4, separators=(", ", " : "))
         return res
 

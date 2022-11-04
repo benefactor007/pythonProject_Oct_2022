@@ -7,7 +7,7 @@ import time
 from peri_step1 import P_step1
 import os, sys, pexpect, json, jsonpath
 
-# My file: rawData_GetKey_0929.json
+# My file: rawData_GetKey_0929.fazit_clip
 """ 
     "error_key_data_list" : [
         {
@@ -42,7 +42,7 @@ class P_step2(P_step1):
     def setProjectDir(self, path):
         self.project_folder = path
 
-    # vital_folder_list = ["codingFiles", "errors", "json", "logs", "tools", "trash"]
+    # vital_folder_list = ["codingFiles", "errors", "fazit_clip", "logs", "tools", "trash"]
 
     def setJsonDir(self, json_folder):
         self.json_folder = self.project_folder + os.sep + json_folder
@@ -79,7 +79,7 @@ class P_step2(P_step1):
         """
       :param json_file_name:
       :param jsonPathDesc:
-      :return: dict(json's data)
+      :return: dict(fazit_clip's data)
       """
         import json, jsonpath
         json_file_path = self.json_folder + os.sep + json_name
@@ -117,7 +117,7 @@ class Scp(P_step2):
             print("Start to transfer {0} to HU".format(i))
             # user, ip, target_dir = "root", "192.168.1.4", "/tmp"
             a = self.scp(i)
-            print(self.adv_doPexpect(p_command=a, json_name="[default]transferFiles.json", jsonpath_command="$.transfer.*", log_path= self.log_path))
+            print(self.adv_doPexpect(p_command=a, json_name="[default]transferFiles.fazit_clip", jsonpath_command="$.transfer.*", log_path= self.log_path))
             time.sleep(1)
         return True
 
@@ -145,7 +145,7 @@ class Scp(P_step2):
         """
       :param json_file_name:
       :param jsonPathDesc:
-      :return: dict(json's data)
+      :return: dict(fazit_clip's data)
       """
         import json, jsonpath
         print(Scp.repr_message(json_path))
@@ -235,7 +235,7 @@ def transfer(dest_folder):
     tt1.hu_dir = dest_folder
     tt1.setProjectDir(os.path.split(os.getcwd())[0])
     tt1.setToolDir("tools")
-    tt1.setJsonDir("json")
+    tt1.setJsonDir("fazit_clip")
     tt1.setToolDir("tools")
     tt1.setLogDir("logs")
     tt1.setFileList(tt1.tools_folder)
@@ -251,7 +251,7 @@ def transfer(dest_folder):
         tt1.add_send_expect(f"sha1sum {os.path.split(i)[-1]}",
                             f"{tt1.getSha1sum(i).split()[0]}  {os.path.split(i)[-1]}")
     tt1.combineAsJson_v2(dest_folder)
-    pexpect_output_json = "file_checksum_expect.json"
+    pexpect_output_json = "file_checksum_expect.fazit_clip"
     tt1.saveFile(tt1.json_folder, pexpect_output_json, tt1.json_dict)
     tt1.set_pexpect_command(tt1.json_folder, pexpect_output_json, tt1.log_path)
     print(tt1.greenFont("files was successfully double checked"))
@@ -265,13 +265,13 @@ def transfer(dest_folder):
 if __name__ == '__main__':
     step2 = P_step2()
     step2.setProjectDir(os.path.split(os.getcwd())[0])
-    step2.setJsonDir("json")
+    step2.setJsonDir("fazit_clip")
     step2.setTrashDir("trash")
     step2.setToolDir("tools")
     step2.setErrorDir("errors")
     step2.setCodingDir("codingFiles")
     step2.setLogDir("logs")
-    vital_folder_list = ["codingFiles", "errors", "json", "logs", "tools", "trash"]
+    vital_folder_list = ["codingFiles", "errors", "fazit_clip", "logs", "tools", "trash"]
 
     """
     transfer files
@@ -279,7 +279,7 @@ if __name__ == '__main__':
     tt1 = Scp()
     tt1.setProjectDir(os.path.split(os.getcwd())[0])
     tt1.setToolDir("tools")
-    tt1.setJsonDir("json")
+    tt1.setJsonDir("fazit_clip")
     tt1.setToolDir("tools")
     tt1.setLogDir("logs")
     tt1.setFileList(tt1.tools_folder)
@@ -294,7 +294,7 @@ if __name__ == '__main__':
         # print(f"tt1.getSha1sum(i).split()[0] : {tt1.getSha1sum(i).split()[0]}")
         tt1.add_send_expect(f"sha1sum {os.path.split(i)[-1]}", f"{tt1.getSha1sum(i).split()[0]}  {os.path.split(i)[-1]}")
     tt1.combineAsJson_v2()
-    pexpect_output_json = "file_checksum_expect.json"
+    pexpect_output_json = "file_checksum_expect.fazit_clip"
     tt1.saveFile(tt1.json_folder, pexpect_output_json, tt1.json_dict)
     tt1.set_pexpect_command(tt1.json_folder, pexpect_output_json, tt1.log_path)
     print(tt1.greenFont("files was successfully double checked"))
@@ -333,9 +333,9 @@ if __name__ == '__main__':
     print(f"step2.log_path is {step2.log_path}\n"
           f"step2.error_path is  {step2.error_path}")
     #### Here: pls assign the value here ####
-    pexpect_exec_json = "toGet_nsKey_VW_GP_v09_1013.json"
-    # pexpect_output_json = "rawData_toGet_nsKey_1011.json"
-    pexpect_output_json = "codingFile_GetKey_checklist.json"
+    pexpect_exec_json = "toGet_nsKey_VW_GP_v09_1013.fazit_clip"
+    # pexpect_output_json = "rawData_toGet_nsKey_1011.fazit_clip"
+    pexpect_output_json = "codingFile_GetKey_checklist.fazit_clip"
     ##########################################
 
     step2.set_pexpect_command_v2(step2.json_folder, pexpect_exec_json, step2.log_path, step2.error_path)
