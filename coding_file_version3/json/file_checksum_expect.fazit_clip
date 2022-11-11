@@ -7,18 +7,6 @@
         {
             "sendline" : "sha1sum tsd.persistence.client.mib3.app.GetKey", 
             "expect" : "880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey"
-        },
-          {
-            "sendline" : "sha1sum tsd.persistence.client.mib3.app.InitPersistence",
-            "expect" : "569efa06c166a5db02a062bbf1275b8fff09c5d5  tsd.persistence.client.mib3.app.InitPersistence"
-        },
-         {
-            "sendline" : "sha1sum vkms_import_reset_dlc.sh",
-            "expect" : "c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh"
-        },
-          {
-            "sendline" : "sha1sum vkms_init_pss.sh",
-            "expect" : "27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh"
         }
     ], 
     "head" : [
@@ -31,8 +19,8 @@
             "expect" : "root@"
         }, 
         {
-            "sendline" : "cd /var", 
-            "expect" : "/var"
+            "sendline" : "cd /tmp", 
+            "expect" : "/tmp"
         }
     ], 
     "tail" : [

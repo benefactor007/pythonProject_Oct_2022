@@ -305,7 +305,7 @@ class P_step1(JSON):
 if __name__ == '__main__':
     HU = P_step1()
     HU.setProjectDir(os.path.dirname(os.getcwd()))
-    HU.setJsonDir("/fazit_clip")
+    HU.setJsonDir("/json")
     HU.set_codingFiles("/codingFiles")
     HU.setLogDir("/logs")
     HU.log_name += "/step2_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
@@ -362,13 +362,13 @@ if __name__ == '__main__':
     ####HERE: pls assign value here####
     #in codingFIles folder
     ref_ns_key_data =  "RecordDataIdOverview_1010.txt"
-    # coding_json_file = "VW_GP_CHN_v0.9.fazit_clip"
-    coding_json_file = "VW_B_Sample_CHN_JV_v0.3.fazit_clip"
+    # coding_json_file = "VW_GP_CHN_v0.9.json"
+    coding_json_file = "VW_B_Sample_CHN_JV_v0.3.json"
     # in fazit_clip folder
-    rawData_ref_ns_key_data = "rawData_DataId_1010.fazit_clip"
-    # toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.fazit_clip"
-    toGetKey_file = "[toGetKey]_VW_B_Sample_CHN_JV_v0.3.fazit_clip"
-    GetKey_file = "[GetKey]_VW_B_Sample_CHN_JV_v0.3.fazit_clip"
+    rawData_ref_ns_key_data = "rawData_DataId_1010.json"
+    # toGetKey_file = "toGet_nsKey_VW_GP_v09_1013.json"
+    toGetKey_file = "[toGetKey]_VW_B_Sample_CHN_JV_v0.3.json"
+    GetKey_file = "[GetKey]_VW_B_Sample_CHN_JV_v0.3.json"
     ####
 
     raw_data_json_path = first_step1(HU,ref_ns_key_data,rawData_ref_ns_key_data)

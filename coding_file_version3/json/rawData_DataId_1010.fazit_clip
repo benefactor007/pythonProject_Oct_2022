@@ -1,0 +1,1402 @@
+[
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B39", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_13", 
+        "Longname" : "Audio_Management_Input_Gain_Offset", 
+        "Length" : "34"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0501", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_114", 
+        "Longname" : "Audio_Management_Audio_Delay_Lines", 
+        "Length" : "12"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0500", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_137", 
+        "Longname" : "Video_audio_encryption", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0550", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_142", 
+        "Longname" : "function_configuration_audio", 
+        "Length" : "10"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B20", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_307", 
+        "Longname" : "Set_Loudspeaker_Test_Mode", 
+        "Length" : "121"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0503", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_503", 
+        "Longname" : "loudspeaker_test_acoustic_extended_remote", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0551", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_534", 
+        "Longname" : "function_configuration_sound", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x1021", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_548", 
+        "Longname" : "BAP_Debug_Mode_Release", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B1B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_552", 
+        "Longname" : "Car_Function_Adaptations", 
+        "Length" : "231"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B1D", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_1529", 
+        "Longname" : "Car_Function_List_BAP", 
+        "Length" : "256"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B12", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4134", 
+        "Longname" : "Summer_Time_Shift_Method", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B5A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4141", 
+        "Longname" : "Dashboard_Display_Configuration", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B26", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4185", 
+        "Longname" : "Headup_display_configuration", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0530", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6161", 
+        "Longname" : "exit_screen_configuration", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0552", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4198", 
+        "Longname" : "function_configuration_car", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0505", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6422", 
+        "Longname" : "function_configuration_rvc", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x24F1", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4215", 
+        "Longname" : "Telephone_configuration", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x24F1", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6665", 
+        "Longname" : "Telephone_configuration", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0xEF97", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4232", 
+        "Longname" : "Delay_time_phone", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0553", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4237", 
+        "Longname" : "function_configuration_phone", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B06", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6175", 
+        "Longname" : "Telephone_Data_Services", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B01", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6375", 
+        "Longname" : "Mobile_Country_Code", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0507", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4274", 
+        "Longname" : "dtc_thresholds", 
+        "Length" : "30"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0986", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4305", 
+        "Longname" : "Menu_items_for_mobile_online_services", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x09C4", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4309", 
+        "Longname" : "Manufactor_specific_connect_app_screening", 
+        "Length" : "0"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x090B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4320", 
+        "Longname" : "Set", 
+        "Length" : "number"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0909", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4323", 
+        "Longname" : "Set", 
+        "Length" : "number"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x090C", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4326", 
+        "Longname" : "Set", 
+        "Length" : "number"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x090A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4329", 
+        "Longname" : "Set", 
+        "Length" : "number"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B02", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4332", 
+        "Longname" : "Emergency_Call_1", 
+        "Length" : "23"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B03", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4335", 
+        "Longname" : "Emergency_Call_1_Roaming", 
+        "Length" : "23"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B33", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4338", 
+        "Longname" : "Bluetooth_Deactivation", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B37", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4342", 
+        "Longname" : "Bluetooth_Sniff_Mode", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0A08", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4346", 
+        "Longname" : "Bluetooth_audio_codec", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B43", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4349", 
+        "Longname" : "WLAN_modul_activation", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0560", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5895", 
+        "Longname" : "ipv4_address_of_subnet_1_on_mib", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0561", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5904", 
+        "Longname" : "ipv4_address_of_subnet_1_on_ccu", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0562", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5913", 
+        "Longname" : "ipv4_address_of_subnet_2_on_mib", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0563", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5922", 
+        "Longname" : "ipv4_address_of_subnet_2_on_ccu", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0564", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5931", 
+        "Longname" : "ipv4_address_of_the_wlan_ap", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0565", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5940", 
+        "Longname" : "ipv6_address_of_subnet_1_on_mib", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0566", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5949", 
+        "Longname" : "ipv6_address_of_subnet_1_on_ccu", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0567", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5958", 
+        "Longname" : "ipv6_address_of_subnet_2_on_mib", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0568", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5967", 
+        "Longname" : "ipv6_address_of_subnet_2_on_ccu", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0569", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5976", 
+        "Longname" : "ipv6_address_of_the_wlan_ap", 
+        "Length" : "8"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x056A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5985", 
+        "Longname" : "wlan_ap_local_net_dhcp_lease_time", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0520", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6124", 
+        "Longname" : "alphabetic_scrollbar", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0521", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6128", 
+        "Longname" : "geocoordinate_create", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0522", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6132", 
+        "Longname" : "geocoordinate_show", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0523", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6136", 
+        "Longname" : "number_to_name_matching_algorithm", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0524", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6140", 
+        "Longname" : "sortorder", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0525", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6146", 
+        "Longname" : "calendar_reminder", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0516", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6153", 
+        "Longname" : "5_ghz_wlan", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0517", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6157", 
+        "Longname" : "same_ssid_for_2_4_and_5_ghz", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0518", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6179", 
+        "Longname" : "channel_band_width_802_11ac", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0519", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6185", 
+        "Longname" : "wlan_channel_numbers", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0555", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4353", 
+        "Longname" : "function_configuration_connectivity", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x055E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6205", 
+        "Longname" : "function_configuration_connectivity_extended", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6381", 
+        "Longname" : "nhtsa_properties", 
+        "Length" : "5"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B48", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4445", 
+        "Longname" : "Startup_Screen_Sticker_HMI", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x09EB", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4448", 
+        "Longname" : "Disabled_menu_contents", 
+        "Length" : "23"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x09CB", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4983", 
+        "Longname" : "Media_country_code_HMI", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0556", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_4986", 
+        "Longname" : "function_configuration_hmi", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6232", 
+        "Longname" : "log_book_initial_language", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0502", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5034", 
+        "Longname" : "Testmode_Video_speed_cutoff", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B2F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5039", 
+        "Longname" : "Multi_Media_Data_Transfer", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x2425", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6235", 
+        "Longname" : "CD", 
+        "Length" : "eject"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B49", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5047", 
+        "Longname" : "Media_Country_Code", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B35", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5050", 
+        "Longname" : "Media_Region_Codes", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0981", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5055", 
+        "Longname" : "Activation_for_external_usb", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0557", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5072", 
+        "Longname" : "function_configuration_media", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x055D", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6239", 
+        "Longname" : "RSE_function_configuration", 
+        "Length" : "10"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B11", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5100", 
+        "Longname" : "Vehicle_Dimensions", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B23", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5107", 
+        "Longname" : "Set_PayTMC", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0E38", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5110", 
+        "Longname" : "Navigation_GNSS_Receiver_Setting", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0558", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5132", 
+        "Longname" : "function_configuration_navigation", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x050A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5181", 
+        "Longname" : "Select_Remote_Test_DAB_Service", 
+        "Length" : "5"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x050E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5188", 
+        "Longname" : "Radio_Level_Quality_Offsets", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x09EE", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5193", 
+        "Longname" : "SDARS_Preactivated_subscription", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0958", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5196", 
+        "Longname" : "Adjustment_fm_tuner_mono_stereo", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0506", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5203", 
+        "Longname" : "Shift_Remote_Test_Frequency_FM", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0508", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5208", 
+        "Longname" : "Shift_Remote_Test_Frequency_AM", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0509", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5213", 
+        "Longname" : "Shift_Remote_Test_Frequency_DAB", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0511", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5218", 
+        "Longname" : "Set_Remote_Test_Channel_Scanning", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0559", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5222", 
+        "Longname" : "function_configuration_radio", 
+        "Length" : "7"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x2442", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5329", 
+        "Longname" : "Mobile", 
+        "Length" : "phone"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x055A", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5336", 
+        "Longname" : "function_configuration_speech", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0504", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6246", 
+        "Longname" : "speechinput_properties_for_activation", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B24", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5377", 
+        "Longname" : "Infotainment_Recorder", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0515", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5381", 
+        "Longname" : "Logging_Configuration", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0513", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5389", 
+        "Longname" : "powermanagement_timer", 
+        "Length" : "28"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x3C02", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5428", 
+        "Longname" : "SWaP_function_crypt_data_ID", 
+        "Length" : "0"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x3C01", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5431", 
+        "Longname" : "SWaP_function_transfer_crypt_data", 
+        "Length" : "0"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x050B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6438", 
+        "Longname" : "function_configuration_swap_fod", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B2E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5435", 
+        "Longname" : "Component_Update_Confirmation", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x055B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5439", 
+        "Longname" : "function_configuration_sw_update", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B44", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5445", 
+        "Longname" : "Dimming_Ambient_Illumination_Information_Control_Unit", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B45", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5458", 
+        "Longname" : "Dimming_Ambient_Illumination_Operating_and_Display_Unit", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B45", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6451", 
+        "Longname" : "Dimming_Ambient_Illumination_Operating_and_Display_Unit", 
+        "Length" : "9"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B45", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6314", 
+        "Longname" : "Dimming_Ambient_Illumination_Operating_and_Display_Unit", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B47", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5471", 
+        "Longname" : "Dimming_Illumination_for_Display_Unit", 
+        "Length" : "12"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052C", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6473", 
+        "Longname" : "Dimming_illumination_for_display_unit_1_for_multimedia_system", 
+        "Length" : "18"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052D", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6498", 
+        "Longname" : "Dimming_illumination_for_display_unit_2_for_multimedia_system", 
+        "Length" : "18"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6523", 
+        "Longname" : "Dimming_illumination_for_display_unit_3_for_multimedia_system", 
+        "Length" : "18"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x052F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6548", 
+        "Longname" : "Dimming_ambient_illumination_for_volume_control", 
+        "Length" : "6"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B47", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6327", 
+        "Longname" : "Dimming_Illumination_for_Display_Unit", 
+        "Length" : "12"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B46", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5496", 
+        "Longname" : "Dimming_Functional_Illumination_for_Operating_Unit", 
+        "Length" : "12"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0526", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6352", 
+        "Longname" : "gestures_room", 
+        "Length" : "60"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0527", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6355", 
+        "Longname" : "proximity_room", 
+        "Length" : "60"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0528", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6358", 
+        "Longname" : "nearby_detection_room", 
+        "Length" : "60"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0529", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6361", 
+        "Longname" : "slider_parameter", 
+        "Length" : "20"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B3E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5522", 
+        "Longname" : "Operating_and_Display_Unit_1_Proximity_Sensor_Basic_Adaptation", 
+        "Length" : "40"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x00BE", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5526", 
+        "Longname" : "IKA-Key", 
+        "Length" : "34"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x00BD", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5529", 
+        "Longname" : "GFA-Key", 
+        "Length" : "34"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x02C5", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5855", 
+        "Longname" : "Component_theft_protection_secure_hardware_extension", 
+        "Length" : "96"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x04FB", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5534", 
+        "Longname" : "Roller_Test_Stand_Mode", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x04A3", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5539", 
+        "Longname" : "Gateway", 
+        "Length" : "Component"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x09D3", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6464", 
+        "Longname" : "Ethernet_configuration", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x2A3B", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5603", 
+        "Longname" : "Automatic_ring_circuit_break_diagnostic", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x092E", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5607", 
+        "Longname" : "MOST_SSO_CU_Detection", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x092F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6447", 
+        "Longname" : "MOST_Optical_Wakeup", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x050F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5710", 
+        "Longname" : "error_mask", 
+        "Length" : "30"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0B13", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5731", 
+        "Longname" : "Fan_Operation", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x04FE", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5735", 
+        "Longname" : "Productionmode", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x04FC", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5741", 
+        "Longname" : "Productionmode", 
+        "Length" : "deactivate"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x243F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5744", 
+        "Longname" : "Developer", 
+        "Length" : "testmode"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0514", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5748", 
+        "Longname" : "Key_code_monitoring", 
+        "Length" : "32"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0902", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5813", 
+        "Longname" : "Activation", 
+        "Length" : "of"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0540", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6265", 
+        "Longname" : "subsystem_identifier_version_implementation", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x055C", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_5821", 
+        "Longname" : "function_configuration_unit", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0500", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_6364", 
+        "Longname" : "Video_audio_encryption", 
+        "Length" : "1"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0571", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "Dia_Anp_7281", 
+        "Longname" : "function_configuration_pso", 
+        "Length" : "2"
+    }, 
+    {
+        "Namespace_hex" : "0x2000000", 
+        "Key" : "0x0600", 
+        "Namespace_purpose" : "Coding", 
+        "SpecID" : "Dia_Cod_1", 
+        "Longname" : "n/a", 
+        "Length" : "25"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF187", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_7", 
+        "Longname" : "VW_Spare_Part_Number", 
+        "Length" : "11"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF189", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_110", 
+        "Longname" : "VW_Application_Software_Version_Number", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF18C", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_67", 
+        "Longname" : "ECU", 
+        "Length" : "Serial"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF191", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_9", 
+        "Longname" : "VW_ECU_Hardware_Number", 
+        "Length" : "11"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF1AB", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_109", 
+        "Longname" : "VW_Logical_Software_Block_Version", 
+        "Length" : "4"
+    }, 
+    {
+        "Namespace_hex" : "0x3000000", 
+        "Key" : "0xF1A3", 
+        "Namespace_purpose" : "Identification", 
+        "SpecID" : "Dia_Ident_11", 
+        "Longname" : "VW_ECU_Hardware_Version_Number", 
+        "Length" : "3"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7201", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_10", 
+        "Longname" : "Audio-Parameter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7202", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_17", 
+        "Longname" : "Audio-Paramter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7203", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_24", 
+        "Longname" : "Audio-Parameter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7204", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_31", 
+        "Longname" : "Audio-Parameter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7205", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_38", 
+        "Longname" : "InCar", 
+        "Length" : "Communication"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7200", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_45", 
+        "Longname" : "Individual", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7101", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_316", 
+        "Longname" : "Audio-Parameter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7102", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_323", 
+        "Longname" : "Audio-Parameter", 
+        "Length" : "Sound"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7103", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_330", 
+        "Longname" : "Audio-Sound", 
+        "Length" : "Parameter"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7104", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_337", 
+        "Longname" : "Audio-Sound", 
+        "Length" : "Parameter"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7105", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_344", 
+        "Longname" : "Audio-Sound", 
+        "Length" : "Parameter"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7206", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_53", 
+        "Longname" : "Speaker", 
+        "Length" : "configuration"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7207", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_60", 
+        "Longname" : "Speaker", 
+        "Length" : "configuration"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7208", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_67", 
+        "Longname" : "Speaker", 
+        "Length" : "configuration"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7209", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_79", 
+        "Longname" : "Eco", 
+        "Length" : "HMI"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x720A", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_89", 
+        "Longname" : "DAB", 
+        "Length" : "Frequency"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x720B", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_97", 
+        "Longname" : "Sprache", 
+        "Length" : "(Sprache-----)"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x720C", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_153", 
+        "Longname" : "Sichtbare", 
+        "Length" : "MMI"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7100", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_160", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7210", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_260", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7211", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_267", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7212", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_274", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7213", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_281", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7214", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_288", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7215", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_295", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7216", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_302", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x7217", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_309", 
+        "Longname" : "Speech", 
+        "Length" : "Signal"
+    }, 
+    {
+        "Namespace_hex" : "0x4000000", 
+        "Key" : "0x720D", 
+        "Namespace_purpose" : "Records", 
+        "SpecID" : "Dia_Ds_181", 
+        "Longname" : "Geschwindigkeitsabschaltschwellen", 
+        "Length" : "(GeschwAbSchw)"
+    }, 
+    {
+        "Namespace_hex" : "0x5000000", 
+        "Key" : "n/a", 
+        "Namespace_purpose" : "Information", 
+        "SpecID" : "n/a", 
+        "Longname" : "n/a", 
+        "Length" : "0"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0574", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "ipv6_address_of_subnet_4_on_ccu", 
+        "Length" : "n/a"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0576", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "ipv4_address_of_subnet_4_on_ccu", 
+        "Length" : "n/a"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0575", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "ipv4_address_of_subnet_4_on_mib", 
+        "Length" : "n/a"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0573", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "ipv6_address_of_subnet_4_on_mib", 
+        "Length" : "n/a"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0512", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "android", 
+        "Length" : "setting"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x0570", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "function", 
+        "Length" : "configuration"
+    }, 
+    {
+        "Namespace_hex" : "0x1000000", 
+        "Key" : "0x056F", 
+        "Namespace_purpose" : "Adaptation", 
+        "SpecID" : "n/a", 
+        "Longname" : "mic", 
+        "Length" : "OCU"
+    }
+]

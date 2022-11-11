@@ -35,7 +35,6 @@ def main_action():
         if check_ping("192.168.1.4") == "0":
             break
         else:
-            print("connect successfully!!!\n")
             pass
     p = pexpect.spawn("ssh root@192.168.1.4", logfile=sys.stdout, encoding="utf-8", timeout=10)
     p.expect("password")
@@ -289,12 +288,24 @@ if __name__ == '__main__':
 
 
 
-
     # fazitPath = os.getcwd() + os.sep + "fazit_" + time.strftime("%Y%m%d") + ".txt"
-    # givenBrand = "SVW"          # set before run
-    # givenFazitJson = "svw_fazit.json" # set before run
-    givenBrand = "FAW"  # set before run
-    givenFazitJson = "faw_fazit.json"  # set before run
+    givenBrand = "SVW"          # set before run
+    givenFazitJson = "svw_fazit.json" # set before run
+    # givenBrand = "FAW"  # set before run
+    # givenFazitJson = "faw_fazit.json"  # set before run
+
+
+    # # test, delete after success
+    # os.chdir(os.path.abspath(os.path.dirname(__file__)))
+    # print(f"set cwd to {os.path.abspath(os.path.dirname(__file__))}")
+    # fazit_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "fazit_clip"
+    # fazit_jsonPath = fazit_clip_dir + os.sep + givenFazitJson
+    # fazit_jsonPath = '/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/fazit_clip/svw_fazit.json'
+    # valid_fazit = final_get_vaild_data(fazit_jsonPath, givenBrand, "fazit")
+    # print(f"valid_fazit : {valid_fazit}")
+    # sys.exit()
+    # # test, delete after success
+
 
     # """
     # Warning: reset only
@@ -330,6 +341,9 @@ if __name__ == '__main__':
         print(f"set cwd to {os.path.abspath(os.path.dirname(__file__))}")
         fazit_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "fazit_clip"
         fazit_jsonPath = fazit_clip_dir + os.sep + givenFazitJson
+        ########## important: we used 3GB035866D/fazit_clip/ as base fazit_trace directory.
+        fazit_jsonPath = '/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/fazit_clip' + os.sep + givenFazitJson
+        ##########
         valid_fazit = final_get_vaild_data(fazit_jsonPath,givenBrand,"fazit")
         if valid_fazit:
             fazit_id_char = valid_fazit
@@ -338,7 +352,7 @@ if __name__ == '__main__':
             print(f"The status of valid: {valid_fazit}\nIt seems that there is no valid fazit id\n")
             sys.exit()
         serialNum_clip_dir = os.path.split(os.getcwd())[0] + os.sep + "serialNum_clip"
-        serialNum_jsonPath = serialNum_clip_dir + os.sep + "serial_num.json"
+        serialNum_jsonPath = serialNum_clip_dir + os.sep + "serial_num_5HG035866.json"
         valid_serial = final_get_vaild_data(serialNum_jsonPath,"serial_num","serial")
         if valid_serial:
             serial_char = valid_serial
@@ -359,8 +373,6 @@ if __name__ == '__main__':
         s.expect("#")
         s.sendline("scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin")
         s.expect("#")
-        s.sendline("scp -r -v tsd.persistence.client.mib3.app.InitPersistence /usr/bin")
-        s.expect("#")
         # transfer vkms scripts into HU
         s.sendline("scp -r -v vkms_import_reset_dlc.sh /usr/bin")
         s.expect("#")
@@ -369,10 +381,6 @@ if __name__ == '__main__':
         # transfer vkms scripts into HU above
         s.sendline("cd /usr/bin")
         s.expect("/usr/bin")
-        # "sendline": "sha1sum tsd.persistence.client.mib3.app.InitPersistence",
-        # "expect": "569efa06c166a5db02a062bbf1275b8fff09c5d5  tsd.persistence.client.mib3.app.InitPersistence"
-        s.sendline("sha1sum tsd.persistence.client.mib3.app.InitPersistence")
-        s.expect("569efa06c166a5db02a062bbf1275b8fff09c5d5")
         s.sendline("sha1sum tsd.persistence.client.mib3.app.SetKey")
         s.expect("4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey")
         s.sendline("sha1sum tsd.persistence.client.mib3.app.GetKey")
@@ -394,22 +402,11 @@ if __name__ == '__main__':
         # s.sendline("./tsd.persistence.client.mib3.app.GetKey --ns 0x3000000 --key 0xF189")
         # s.expect("load: ns: 3000000 key: 61833 slot: 0 status: 0")
         logs.write("=" * 79 + "\n")
-
         s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5")
         # s.expect("store: ns: 80000008 key: 0 slot: 0")
-        # s.expect("store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5")
-        index = s.expect(["store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5","store: ns: 80000008 key: 0 slot: 0 status: 1"])
-        if index == 0:
-            pass
-        elif index == 1:
-            s.sendline("./tsd.persistence.client.mib3.app.InitPersistence")
-            logs.write("exec. tsd.persistenc.client.mib3.app.InitPersistence\n")
-            print("exec. tsd.persistenc.client.mib3.app.InitPersistence\n")
-            s.expect("infotainment")
-            logs.write("DONE!!!\n")
-            s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5")
-            s.expect("store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5")
+        s.expect("store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5")
         # print(s.before.split("\n")[0])
+
         # hexadecimal_sw = s.before.split("\n")[0]
         # ascii_str_sw = bytes.fromhex("".join(hexadecimal_sw[hexadecimal_sw.index(":") + 1:].split())).decode()
         # if ascii_str_sw != "C822":
@@ -418,17 +415,18 @@ if __name__ == '__main__':
         #     fazits.write(ascii_str_sw + "\n")
 
 
-        #3GB035866D: 3347423033353836364420
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420")
-        s.expect("store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20")
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420")
-        s.expect("store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20")
-        # set hardware version: X31
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331")
-        s.expect("store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31")
+        #5HG035866  : 3548473033353836362020
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3548473033353836362020")
+        s.expect("store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 20 20")
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3548473033353836362020")
+        s.expect("store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 35 48 47 30 33 35 38 36 36 20 20")
+        # set hardware version: X09
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583039")
+        s.expect("store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 30 39")
         # set software version
-        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232")
-        s.expect("store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32")
+        # C370
+        s.sendline("./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43333730")
+        s.expect("store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 33 37 30")
         # set fazit-id
         # fazit_id_char = "X9G-10103.05.2299990605"
         fazit_id_hex = str_to_hexStr(fazit_id_char)

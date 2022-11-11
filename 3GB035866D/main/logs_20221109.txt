@@ -1,0 +1,1084 @@
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-583677:~]# [mcd /var
+cd /var
+[root@vw-infotainment-583677:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-583677:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-583677:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-583677:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-583677:/var]# [mexit
+sync
+exit
+[root@vw-infotainment-583677:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_35_51
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-583677:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-583677:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-583677:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-583677:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-583677:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-583677:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-583677:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-583677:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-583677:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-583677:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-583677:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363037
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+037
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,30,37,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 30 37 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303530
+[root@vw-infotainment-583677:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303530
+56,57,58,39,47,41,33,36,34,34,30,35,30,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 30 
+./vkms_init_pss.sh
+[root@vw-infotainment-583677:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished./vkms_import_reset_dlc.sh
+
+[root@vw-infotainment-583677:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-583677:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-583677:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-583677:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-583677:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-583677:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-583677:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-583677:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-933263:~]# [mcd /var
+cd /var
+sha1sum tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-933263:/var]# [msha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-933263:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-933263:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-933263:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-933263:/var]# [mexit
+sync
+[root@vw-infotainment-933263:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_38_09
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-933263:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-933263:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-933263:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-933263:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-933263:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-933263:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-933263:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-933263:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-933263:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-933263:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-933263:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363038
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+038
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,30,38,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 30 38 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303531
+[root@vw-infotainment-933263:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303531
+56,57,58,39,47,41,33,36,34,34,30,35,31,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 31 
+./vkms_init_pss.sh
+[root@vw-infotainment-933263:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-933263:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-933263:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-933263:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-933263:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-933263:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-933263:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-933263:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-933263:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-114158:~]# [mcd /var
+cd /var
+[root@vw-infotainment-114158:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-114158:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-114158:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-114158:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-114158:/var]# [mexit
+sync
+[root@vw-infotainment-114158:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_40_26
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-114158:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-114158:~]# [mcd /var
+cd /var
+[root@vw-infotainment-114158:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-114158:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-114158:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-114158:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-114158:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-114158:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-114158:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-114158:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-114158:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363039
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+039
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,30,39,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 30 39 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303532
+[root@vw-infotainment-114158:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303532
+56,57,58,39,47,41,33,36,34,34,30,35,32,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 32 
+./vkms_init_pss.sh
+[root@vw-infotainment-114158:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-114158:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-114158:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-114158:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-114158:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-114158:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-114158:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-114158:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-114158:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-515269:~]# [mcd /var
+cd /var
+[root@vw-infotainment-515269:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-515269:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-515269:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-515269:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-515269:/var]# [mexit
+sync
+[root@vw-infotainment-515269:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_45_01
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-515269:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-515269:~]# [mcd /var
+cd /var
+[root@vw-infotainment-515269:/var]# [mscp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-515269:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-515269:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-515269:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-515269:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-515269:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-515269:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-515269:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-515269:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363130
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+130
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,31,30,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 31 30 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303533
+[root@vw-infotainment-515269:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303533
+56,57,58,39,47,41,33,36,34,34,30,35,33,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 33 
+./vkms_init_pss.sh
+[root@vw-infotainment-515269:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-515269:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-515269:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-515269:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-515269:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-515269:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-515269:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-515269:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-515269:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-402927:~]# [mcd /var
+cd /var
+[root@vw-infotainment-402927:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-402927:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-402927:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-402927:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-402927:/var]# [mexit
+sync
+[root@vw-infotainment-402927:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_47_00
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-402927:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-402927:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-402927:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-402927:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-402927:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-402927:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-402927:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-402927:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-402927:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-402927:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-402927:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363131
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+131
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,31,31,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 31 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303534
+[root@vw-infotainment-402927:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303534
+56,57,58,39,47,41,33,36,34,34,30,35,34,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 34 
+./vkms_init_pss.sh
+[root@vw-infotainment-402927:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-402927:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-402927:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-402927:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-402927:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-402927:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-402927:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-402927:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-402927:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-370594:~]# [mcd /var
+cd /var
+[root@vw-infotainment-370594:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-370594:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-370594:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-370594:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-370594:/var]# [mexit
+sync
+[root@vw-infotainment-370594:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_49_14
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-370594:~]# [mmount-read-write.sh
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-535531:~]# [mcd /var
+cd /var
+[root@vw-infotainment-535531:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-535531:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-535531:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-535531:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-535531:/var]# [mexit
+sync
+[root@vw-infotainment-535531:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_50_04
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-535531:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-535531:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-535531:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-535531:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-535531:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-535531:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-535531:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-535531:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-535531:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-535531:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-535531:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 ./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363132
+
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+132
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,31,32,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 31 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303535
+[root@vw-infotainment-535531:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303535
+56,57,58,39,47,41,33,36,34,34,30,35,35,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 35 
+./vkms_init_pss.sh
+[root@vw-infotainment-535531:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-535531:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-535531:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-535531:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-535531:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-535531:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-535531:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-535531:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-535531:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-589389:~]# [mcd /var
+cd /var
+[root@vw-infotainment-589389:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-589389:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-589389:/var]# [msha1sum vkms_import_reset_dlc.sh
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+root@192.168.1.4's password: root
+
+vkms_import_reset_dlc.sh                        0%    0     0.0KB/s   --:-- ETAvkms_import_reset_dlc.sh                      100%  117KB 117.0KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+root@192.168.1.4's password: root
+
+vkms_init_pss.sh                                0%    0     0.0KB/s   --:-- ETAvkms_init_pss.sh                              100%  117KB 116.9KB/s   00:00    
+root@192.168.1.4's password: root
+
+tsd.persistence.client.mib3.app.GetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.GetKey        100%   15KB  14.5KB/s   00:00    
+ssh root@192.168.1.4
+pexpect.spawn(command=ssh root@192.168.1.4, , logfile=<_io.TextIOWrapper name='/home/jpcc/PycharmProjects/pythonProject_Oct_2022/3GB035866D/main/logs_20221109.txt' mode='a' encoding='UTF-8'>, encoding=utf-8, timeout=20)
+p.expect(password)
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-416889:~]# [mcd /var
+cd /var
+[root@vw-infotainment-416889:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.SetK
+ey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+sha1sum tsd.persistence.client.mib3.app.GetKey
+[root@vw-infotainment-416889:/var]# [msha1sum tsd.persistence.client.mib3.app.GetK
+ey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-416889:/var]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-416889:/var]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+sync
+[root@vw-infotainment-416889:/var]# [mexit
+sync
+[root@vw-infotainment-416889:/var]# [mexit
+Connection to 192.168.1.4 closed.
+
+======================================================================
+                          20221109_11_52_53
+root@192.168.1.4's password: root
+
+[root@vw-infotainment-416889:~]# [mmount-read-write.sh
+mount-read-write.sh
+[root@vw-infotainment-416889:~]# [mcd /var
+cd /var
+scp -r -v tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-416889:/var]# [mscp -r -v tsd.persistence.client.mib3.app.GetKey /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Se
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.SetKey /usr/bin
+[root@vw-infotainment-416889:/var]# [mscp -r -v vkms_import_reset_dlc.sh /usr/bin
+scp -r -v tsd.persistence.client.mib3.app.Ge
+tKey /usr/bin
+Executing: /bin/cp -r tsd.persistence.client.mib3.app.GetKey /usr/bin
+[root@vw-infotainment-416889:/var]# [mscp -r -v vkms_init_pss.sh /usr/bin
+scp -r -v vkms_import_reset_dlc.sh /usr/bin
+Executing: /bin/cp -r vkms_import_reset_dlc.sh /usr/bin
+[root@vw-infotainment-416889:/var]# [mcd /usr/bin
+scp -r -v vkms_init_pss.sh /usr/bin
+Executing: /bin/cp -r vkms_init_pss.sh /usr/bin
+[root@vw-infotainment-416889:/var]# [msha1sum tsd.persistence.client.mib3.app.SetKey
+cd /usr/bin
+[root@vw-infotainment-416889:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.
+SetKey
+4e9d90211063684bf2ce56b3f9bf94cefc141fa4  tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-416889:/usr/bin]# [msha1sum tsd.persistence.client.mib3.app.GetKey
+sha1sum tsd.persistence.client.mib3.app.
+GetKey
+880152e334d675794bea1f3616d1c94c147c1962  tsd.persistence.client.mib3.app.GetKey
+sha1sum vkms_import_reset_dlc.sh
+[root@vw-infotainment-416889:/usr/bin]# [msha1sum vkms_import_reset_dlc.sh
+c388e0ef98d9fb1651fa24294090308f4d02554b  vkms_import_reset_dlc.sh
+sha1sum vkms_init_pss.sh
+[root@vw-infotainment-416889:/usr/bin]# [msha1sum vkms_init_pss.sh
+27ff76a1c36bbe2177ce3962b750d336865a20bc  vkms_init_pss.sh
+==============================base-identification==============================
+===============================================================================
+./tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00 --val 0xe5
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00 --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF187 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF191 --val 0x3347423033353836364420
+33,47,42,30,33,35,38,36,36,44,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 44 20 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3 --val 0x583331
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3 --val 0x583331
+58,33,31,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 33 31 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF189 --val 0x43383232
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF189 --val 0x43383232
+43,38,32,32,
+store: ns: 3000000 key: 61833 slot: 0 status: 0 data: 43 38 32 32 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363133
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF17C --val 0x5839472D31303131312E31302E32323939393930363
+133
+58,39,47,2d,31,30,31,31,31,2e,31,30,2e,32,32,39,39,39,39,30,36,31,33,
+store: ns: 3000000 key: 61820 slot: 0 status: 0 data: 58 39 47 2d 31 30 31 31 31 2e 31 30 2e 32 32 39 39 39 39 30 36 31 33 
+./tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303536
+[root@vw-infotainment-416889:/usr/bin]# [m./tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF18C --val 0x56575839474133363434303536
+56,57,58,39,47,41,33,36,34,34,30,35,36,
+store: ns: 3000000 key: 61836 slot: 0 status: 0 data: 56 57 58 39 47 41 33 36 34 34 30 35 36 
+./vkms_init_pss.sh
+[root@vw-infotainment-416889:/usr/bin]# [m./vkms_init_pss.sh
+Initializing VKMS
+Finished
+./vkms_import_reset_dlc.sh
+[root@vw-infotainment-416889:/usr/bin]# [m./vkms_import_reset_dlc.sh
+Importing VKMS Reset DLC
+Finished
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-416889:/usr/bin]# [mrm -rf /usr/bin/tsd.persistence.client.mib3.app.*
+rm -rf tsd.persistence.client.mib3.app.*
+[root@vw-infotainment-416889:/usr/bin]# [mrm -rf vkms_i*
+rm -rf /usr/bin/tsd.persistence.client.m
+ib3.app.*
+[root@vw-infotainment-416889:/usr/bin]# [mrm -rf /var/tsd.persistence.client.mib3.app.*
+rm -rf vkms_i*
+[root@vw-infotainment-416889:/usr/bin]# [mrm -rf /var/vkms_i*
+rm -rf /var/tsd.persistence.client.mib3.
+app.*
+[root@vw-infotainment-416889:/usr/bin]# [msync
+rm -rf /var/vkms_i*
+[root@vw-infotainment-416889:/usr/bin]# [mreboot
+sync
+[root@vw-infotainment-416889:/usr/bin]# [mreboot
+Connection to 192.168.1.4 closed by remote host.
+Connection to 192.168.1.4 closed.
+
+           [32mWrite persistence data successfully!!![0m
+======================================================================

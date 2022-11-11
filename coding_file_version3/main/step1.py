@@ -149,7 +149,7 @@ class S1:
             # print(S1.scp(i,S1.user,S1.ip,S1.dest_dir))
             print("Start to transfer {0} to HU".format(i))
             a = S1.scp(i, S1.user, S1.ip, S1.dest_dir)
-            print(cls.adv_doPexpect(p_command=a, json_name="[default]transferFiles.fazit_clip", jsonpath_command="$.transfer.*"))
+            print(cls.adv_doPexpect(p_command=a, json_name="[default]transferFiles.json", jsonpath_command="$.transfer.*"))
             time.sleep(1)
         return True
 
@@ -370,7 +370,8 @@ if __name__ == '__main__':
     HU = S1()
     # HU.setProjectDir("/home/jpcc/PycharmProjects/pythonProject_Sept_2022/coding_file_version2")
     HU.setProjectDir(os.path.dirname(os.getcwd()))
-    HU.setJsonDir("/fazit_clip")
+    print(f"os.path.dirname(os.getcwd()) => {os.path.dirname(os.getcwd())}")
+    HU.setJsonDir("/json")
     HU.setToolsDir("/tools")
     HU.setLogDir("/logs")
     HU.log_name += "/swdl_" + time.strftime("%Y%m%d_%H_%M_%S", time.localtime(time.time())) + ".txt"
@@ -391,7 +392,7 @@ if __name__ == '__main__':
         A.add_send_expect("sha1sum {0}".format(i), "{0}  {1}".format(HU.getFilesSha1sum()[i], i))
     # A.add_send_expect("root", "root")
     # A.add_send_expect("password", "password")
-    json_name = "checksum_files_v2.fazit_clip"
+    json_name = "checksum_files_v2.json"
     # A.combineAsJson(json_name)
     A.combineAsJson_v2()
     print(A.json_dict)

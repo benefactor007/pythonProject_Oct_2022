@@ -117,7 +117,7 @@ class Scp(P_step2):
             print("Start to transfer {0} to HU".format(i))
             # user, ip, target_dir = "root", "192.168.1.4", "/tmp"
             a = self.scp(i)
-            print(self.adv_doPexpect(p_command=a, json_name="[default]transferFiles.fazit_clip", jsonpath_command="$.transfer.*", log_path= self.log_path))
+            print(self.adv_doPexpect(p_command=a, json_name="[default]transferFiles.json", jsonpath_command="$.transfer.*", log_path= self.log_path))
             time.sleep(1)
         return True
 
@@ -279,7 +279,7 @@ if __name__ == '__main__':
     tt1 = Scp()
     tt1.setProjectDir(os.path.split(os.getcwd())[0])
     tt1.setToolDir("tools")
-    tt1.setJsonDir("fazit_clip")
+    tt1.setJsonDir("json")
     tt1.setToolDir("tools")
     tt1.setLogDir("logs")
     tt1.setFileList(tt1.tools_folder)
